@@ -1,0 +1,188 @@
+###############################################
+## 7 clusters desirable result (2 variations) #
+###############################################
+~~~~~~~~~~ variation 1 ~~~~~~~~
+labels7_1 = [6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1, 2]
+clusters7_1 = [[4, 9, 13, 16], [8, 11, 17, 22], [1, 7, 23], [21], [12, 19], [5, 6, 10, 15, 18, 20], [0, 2, 3, 14]]
+Books in cluster:
+Cluster 0:
+|gap_pX5KAAAAYAAJ|[4]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol IV
+|gap_MEoWAAAAYAAJ|[9]  The Historical Annals of Cornelius Tacitus, by Arthur Murphy, Vol I
+|gap_WORMAAAAYAAJ|[13]  The Histories of Caius Cornelius Tacitus, by William Seymour Tyler
+|gap_2X5KAAAAYAAJ|[16]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol V
+Cluster 1:
+|gap_m_6B1DkImIoC|[8]  Titus Livus, Roman History, by William Gordon
+|gap_DqQNAAAAYAAJ|[11]  LIVY , History of Rome, translated by George Baker, Vol III
+|gap_Bdw_AAAAYAAJ|[17]  The History of Rome By Titus Liviusm, translated by George Baker, Vol I
+|gap_RqMNAAAAYAAJ|[22]  LIVY , History of Rome, translated by George Baker, Vol V
+Cluster 2:
+|gap_9ksIAAAAQAAJ|[1]  The History of the Peloponnesian War, translated from the Greek of Thucydides, By William Smith, Vol II
+|gap_fnAMAAAAYAAJ|[7]  The History of the Peloponnesian War by Thucydides, By William Smith, Vol I
+|gap_DhULAAAAYAAJ|[23]  The Description of Greece, by Pausanias, Vol III
+Cluster 3:
+|gap_udEIAAAAQAAJ|[21]  The First and Thirty-Third Books of Pliny's Natural History, by John Bostock
+Cluster 4:
+|gap_-C0BAAAAQAAJ|[12]  Dictionary of Greek and Roman Geography, Edited by William Smith, Vol II
+|gap_dIkBAAAAQAAJ|[19]  The History of Rome by Theoder Mommsen, translated by William P. Dickson, Vol III
+Cluster 5:
+|gap_aLcWAAAAQAAJ|[5]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol I
+|gap_GIt0HMhqjRgC|[6]  Gibbon's History of the Decline and Fall of The Roman Empire, by Thomas Bowdler, Vol IV
+|gap_IlUMAQAAMAAJ|[10]  Gibbon's History of the Decline and Fall of the Roman Empire, by Thomas Bowdler, Vol II
+|gap_XmqHlMECi6kC|[15]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol VI
+|gap_VPENAAAAQAAJ|[18]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol V
+|gap_CSEUAAAAYAAJ|[20]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol III
+Cluster 6:
+|gap_ogsNAAAAIAAJ|[0]  The Works of Josephus, by William Whiston, Vol IV
+|gap_y-AvAAAAYAAJ|[2]  The Genuie Works of Flavius Josephus, by William Whiston, Vol III
+|gap_TgpMAAAAYAAJ|[3]  The Genuie Works of Flavius Josephus, by William Whiston, Vol I
+|gap_CnnUAAAAMAAJ|[14]  The Whole Genuie Works of Flavius Josephus, by William Whiston, Vol II
+~~~~~~~~~~ variation 2 ~~~~~~~~
+labels7_2   = [6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1, 4]
+clusters7_2 = [[4, 9, 13, 16], [8, 11, 17, 22], [1, 7], [21], [23, 12, 19], [5, 6, 10, 15, 18, 20], [0, 2, 3, 14]]
+Books in cluster:
+Cluster 0:
+|gap_pX5KAAAAYAAJ|[4]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol IV
+|gap_MEoWAAAAYAAJ|[9]  The Historical Annals of Cornelius Tacitus, by Arthur Murphy, Vol I
+|gap_WORMAAAAYAAJ|[13]  The Histories of Caius Cornelius Tacitus, by William Seymour Tyler
+|gap_2X5KAAAAYAAJ|[16]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol V
+Cluster 1:
+|gap_m_6B1DkImIoC|[8]  Titus Livus, Roman History, by William Gordon
+|gap_DqQNAAAAYAAJ|[11]  LIVY , History of Rome, translated by George Baker, Vol III
+|gap_Bdw_AAAAYAAJ|[17]  The History of Rome By Titus Liviusm, translated by George Baker, Vol I
+|gap_RqMNAAAAYAAJ|[22]  LIVY , History of Rome, translated by George Baker, Vol V
+Cluster 2:
+|gap_9ksIAAAAQAAJ|[1]  The History of the Peloponnesian War, translated from the Greek of Thucydides, By William Smith, Vol II
+|gap_fnAMAAAAYAAJ|[7]  The History of the Peloponnesian War by Thucydides, By William Smith, Vol I
+Cluster 3:
+|gap_udEIAAAAQAAJ|[21]  The First and Thirty-Third Books of Pliny's Natural History, by John Bostock
+Cluster 4:
+|gap_DhULAAAAYAAJ|[23]  The Description of Greece, by Pausanias, Vol III
+|gap_-C0BAAAAQAAJ|[12]  Dictionary of Greek and Roman Geography, Edited by William Smith, Vol II
+|gap_dIkBAAAAQAAJ|[19]  The History of Rome by Theoder Mommsen, translated by William P. Dickson, Vol III
+Cluster 5:
+|gap_aLcWAAAAQAAJ|[5]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol I
+|gap_GIt0HMhqjRgC|[6]  Gibbon's History of the Decline and Fall of The Roman Empire, by Thomas Bowdler, Vol IV
+|gap_IlUMAQAAMAAJ|[10]  Gibbon's History of the Decline and Fall of the Roman Empire, by Thomas Bowdler, Vol II
+|gap_XmqHlMECi6kC|[15]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol VI
+|gap_VPENAAAAQAAJ|[18]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol V
+|gap_CSEUAAAAYAAJ|[20]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol III
+Cluster 6:
+|gap_ogsNAAAAIAAJ|[0]  The Works of Josephus, by William Whiston, Vol IV
+|gap_y-AvAAAAYAAJ|[2]  The Genuie Works of Flavius Josephus, by William Whiston, Vol III
+|gap_TgpMAAAAYAAJ|[3]  The Genuie Works of Flavius Josephus, by William Whiston, Vol I
+|gap_CnnUAAAAMAAJ|[14]  The Whole Genuie Works of Flavius Josephus, by William Whiston, Vol II
+
+###############################################
+## 8 clusters desirable result (2 variations) #
+###############################################
+~~~~~~~~~~ variation 1 ~~~~~~~~
+labels8_1 = [7, 2, 7, 7, 0, 6, 6, 2, 1, 0, 6, 1, 5, 0, 7, 6, 0, 1, 6, 5, 6, 4, 1, 3]
+clusters8_1 = [[4, 9, 13, 16], [8, 11, 17, 22], [1, 7], [23], [21], [12, 19], [5, 6, 10, 15, 18, 20], [0, 2, 3, 14]]
+Books in cluster:
+Cluster 0:
+|gap_pX5KAAAAYAAJ|[4]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol IV
+|gap_MEoWAAAAYAAJ|[9]  The Historical Annals of Cornelius Tacitus, by Arthur Murphy, Vol I
+|gap_WORMAAAAYAAJ|[13]  The Histories of Caius Cornelius Tacitus, by William Seymour Tyler
+|gap_2X5KAAAAYAAJ|[16]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol V
+Cluster 1:
+|gap_m_6B1DkImIoC|[8]  Titus Livus, Roman History, by William Gordon
+|gap_DqQNAAAAYAAJ|[11]  LIVY , History of Rome, translated by George Baker, Vol III
+|gap_Bdw_AAAAYAAJ|[17]  The History of Rome By Titus Liviusm, translated by George Baker, Vol I
+|gap_RqMNAAAAYAAJ|[22]  LIVY , History of Rome, translated by George Baker, Vol V
+Cluster 2:
+|gap_9ksIAAAAQAAJ|[1]  The History of the Peloponnesian War, translated from the Greek of Thucydides, By William Smith, Vol II
+|gap_fnAMAAAAYAAJ|[7]  The History of the Peloponnesian War by Thucydides, By William Smith, Vol I
+Cluster 3:
+|gap_DhULAAAAYAAJ|[23]  The Description of Greece, by Pausanias, Vol III
+Cluster 4:
+|gap_udEIAAAAQAAJ|[21]  The First and Thirty-Third Books of Pliny's Natural History, by John Bostock
+Cluster 5:
+|gap_-C0BAAAAQAAJ|[12]  Dictionary of Greek and Roman Geography, Edited by William Smith, Vol II
+|gap_dIkBAAAAQAAJ|[19]  The History of Rome by Theoder Mommsen, translated by William P. Dickson, Vol III
+Cluster 6:
+|gap_aLcWAAAAQAAJ|[5]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol I
+|gap_GIt0HMhqjRgC|[6]  Gibbon's History of the Decline and Fall of The Roman Empire, by Thomas Bowdler, Vol IV
+|gap_IlUMAQAAMAAJ|[10]  Gibbon's History of the Decline and Fall of the Roman Empire, by Thomas Bowdler, Vol II
+|gap_XmqHlMECi6kC|[15]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol VI
+|gap_VPENAAAAQAAJ|[18]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol V
+|gap_CSEUAAAAYAAJ|[20]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol III
+Cluster 7:
+|gap_ogsNAAAAIAAJ|[0]  The Works of Josephus, by William Whiston, Vol IV
+|gap_y-AvAAAAYAAJ|[2]  The Genuie Works of Flavius Josephus, by William Whiston, Vol III
+|gap_TgpMAAAAYAAJ|[3]  The Genuie Works of Flavius Josephus, by William Whiston, Vol I
+|gap_CnnUAAAAMAAJ|[14]  The Whole Genuie Works of Flavius Josephus, by William Whiston, Vol II
+~~~~~~~~~~ variation 2 ~~~~~~~~
+labels8_2 = [7, 2, 7, 7, 0, 6, 6, 2, 1, 0, 6, 1, 3, 0, 7, 6, 0, 1, 6, 5, 6, 4, 1, 2]
+clusters8_2 = [[4, 9, 13, 16], [8, 11, 17, 22], [1, 7, 23], [12], [21], [19], [5, 6, 10, 15, 18, 20], [0, 2, 3, 14]]
+Books in cluster:
+Cluster 0:
+|gap_pX5KAAAAYAAJ|[4]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol IV
+|gap_MEoWAAAAYAAJ|[9]  The Historical Annals of Cornelius Tacitus, by Arthur Murphy, Vol I
+|gap_WORMAAAAYAAJ|[13]  The Histories of Caius Cornelius Tacitus, by William Seymour Tyler
+|gap_2X5KAAAAYAAJ|[16]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol V
+Cluster 1:
+|gap_m_6B1DkImIoC|[8]  Titus Livus, Roman History, by William Gordon
+|gap_DqQNAAAAYAAJ|[11]  LIVY , History of Rome, translated by George Baker, Vol III
+|gap_Bdw_AAAAYAAJ|[17]  The History of Rome By Titus Liviusm, translated by George Baker, Vol I
+|gap_RqMNAAAAYAAJ|[22]  LIVY , History of Rome, translated by George Baker, Vol V
+Cluster 2:
+|gap_9ksIAAAAQAAJ|[1]  The History of the Peloponnesian War, translated from the Greek of Thucydides, By William Smith, Vol II
+|gap_fnAMAAAAYAAJ|[7]  The History of the Peloponnesian War by Thucydides, By William Smith, Vol I
+|gap_DhULAAAAYAAJ|[23]  The Description of Greece, by Pausanias, Vol III
+Cluster 3:
+|gap_-C0BAAAAQAAJ|[12]  Dictionary of Greek and Roman Geography, Edited by William Smith, Vol II
+Cluster 4:
+|gap_udEIAAAAQAAJ|[21]  The First and Thirty-Third Books of Pliny's Natural History, by John Bostock
+Cluster 5:
+|gap_dIkBAAAAQAAJ|[19]  The History of Rome by Theoder Mommsen, translated by William P. Dickson, Vol III
+Cluster 6:
+|gap_aLcWAAAAQAAJ|[5]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol I
+|gap_GIt0HMhqjRgC|[6]  Gibbon's History of the Decline and Fall of The Roman Empire, by Thomas Bowdler, Vol IV
+|gap_IlUMAQAAMAAJ|[10]  Gibbon's History of the Decline and Fall of the Roman Empire, by Thomas Bowdler, Vol II
+|gap_XmqHlMECi6kC|[15]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol VI
+|gap_VPENAAAAQAAJ|[18]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol V
+|gap_CSEUAAAAYAAJ|[20]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol III
+Cluster 7:
+|gap_ogsNAAAAIAAJ|[0]  The Works of Josephus, by William Whiston, Vol IV
+|gap_y-AvAAAAYAAJ|[2]  The Genuie Works of Flavius Josephus, by William Whiston, Vol III
+|gap_TgpMAAAAYAAJ|[3]  The Genuie Works of Flavius Josephus, by William Whiston, Vol I
+|gap_CnnUAAAAMAAJ|[14]  The Whole Genuie Works of Flavius Josephus, by William Whiston, Vol II
+################################
+## 9 clusters desirable result #
+################################
+labels9 =  [8, 2, 8, 8, 0, 7, 7, 2, 1, 0, 7, 1, 4, 0, 8, 7, 0, 1, 7, 6, 7, 5, 1, 3]
+clusters9 = [[4, 9, 13, 16], [8, 11, 17, 22], [1, 7], [23], [12], [21], [19], [5, 6, 10, 15, 18, 20], [0, 2, 3, 14]]
+Books in cluster:
+Cluster 0:
+|gap_pX5KAAAAYAAJ|[4]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol IV
+|gap_MEoWAAAAYAAJ|[9]  The Historical Annals of Cornelius Tacitus, by Arthur Murphy, Vol I
+|gap_WORMAAAAYAAJ|[13]  The Histories of Caius Cornelius Tacitus, by William Seymour Tyler
+|gap_2X5KAAAAYAAJ|[16]  The Works of Cornelius Tacitus, by Arthur Murphy, Vol V
+Cluster 1:
+|gap_m_6B1DkImIoC|[8]  Titus Livus, Roman History, by William Gordon
+|gap_DqQNAAAAYAAJ|[11]  LIVY , History of Rome, translated by George Baker, Vol III
+|gap_Bdw_AAAAYAAJ|[17]  The History of Rome By Titus Liviusm, translated by George Baker, Vol I
+|gap_RqMNAAAAYAAJ|[22]  LIVY , History of Rome, translated by George Baker, Vol V
+Cluster 2:
+|gap_9ksIAAAAQAAJ|[1]  The History of the Peloponnesian War, translated from the Greek of Thucydides, By William Smith, Vol II
+|gap_fnAMAAAAYAAJ|[7]  The History of the Peloponnesian War by Thucydides, By William Smith, Vol I
+Cluster 3:
+|gap_DhULAAAAYAAJ|[23]  The Description of Greece, by Pausanias, Vol III
+Cluster 4:
+|gap_-C0BAAAAQAAJ|[12]  Dictionary of Greek and Roman Geography, Edited by William Smith, Vol II
+Cluster 5:
+|gap_udEIAAAAQAAJ|[21]  The First and Thirty-Third Books of Pliny's Natural History, by John Bostock
+Cluster 6:
+|gap_dIkBAAAAQAAJ|[19]  The History of Rome by Theoder Mommsen, translated by William P. Dickson, Vol III
+Cluster 7:
+|gap_aLcWAAAAQAAJ|[5]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol I
+|gap_GIt0HMhqjRgC|[6]  Gibbon's History of the Decline and Fall of The Roman Empire, by Thomas Bowdler, Vol IV
+|gap_IlUMAQAAMAAJ|[10]  Gibbon's History of the Decline and Fall of the Roman Empire, by Thomas Bowdler, Vol II
+|gap_XmqHlMECi6kC|[15]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol VI
+|gap_VPENAAAAQAAJ|[18]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol V
+|gap_CSEUAAAAYAAJ|[20]  The History of the Decline and Fall of The Roman Empire, by Edward Gibbon, Vol III
+Cluster 8:
+|gap_ogsNAAAAIAAJ|[0]  The Works of Josephus, by William Whiston, Vol IV
+|gap_y-AvAAAAYAAJ|[2]  The Genuie Works of Flavius Josephus, by William Whiston, Vol III
+|gap_TgpMAAAAYAAJ|[3]  The Genuie Works of Flavius Josephus, by William Whiston, Vol I
+|gap_CnnUAAAAMAAJ|[14]  The Whole Genuie Works of Flavius Josephus, by William Whiston, Vol II
