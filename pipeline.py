@@ -18,13 +18,14 @@ from time import time
 import numpy as np
 
 ##########Import data##############
-indir = '/home/user/projects/data_mining/clustering_cw/book_texts/one_line_text'
+indir = './book_texts/one_line_text'
 books_names = []
 books_texts = []
 for texts in os.listdir(indir):
     name, ex = os.path.splitext(texts)
     books_names.append(name)
     books_texts.append(open(indir + "/" + texts).read())
+print(books_names)
 
 real_names= {'gap_-C0BAAAAQAAJ' : 'Dictionary of Greek and Roman Geography, Edited by William Smith, Vol II',
 'gap_2X5KAAAAYAAJ' : 'The Works of Cornelius Tacitus, by Arthur Murphy, Vol V',
@@ -232,7 +233,7 @@ AggloClu_linkage = ['ward', 'complete', 'average']
 def run_AggloClu(X, vector_cfg):
 ###run clustering
     for n_clusters, affinity, linkage in product(AggloClu_n_clusters, AggloClu_affinity, AggloClu_linkage):
-        #if linkage == 'ward' and affinity !='euclidean': continue
+        if linkage == 'ward' and affinity !='euclidean': continue
         print()
         print('############################################################################################')
         cluster_cfg = 'AggloClu with n_clusters: %s affinity: %s linkage: %s' % (n_clusters, affinity, linkage)
@@ -317,7 +318,6 @@ AffinityPropagation_affinity = ['precomputed', 'euclidean']
 def run_AffinityPropagation(X, vector_cfg):
 ###run clustering
     for damping, convergence_iter, max_iter, affinity in product(AffinityPropagation_damping, AffinityPropagation_convergence_iter, AffinityPropagation_max_iter, AffinityPropagation_affinity):
-        #if linkage == 'ward' and affinity !='euclidean': continue
         #if threshold != 0.5 or branching_factor !=50 or  n_clusters !=7: continue
         print()
         print('############################################################################################')
@@ -333,24 +333,24 @@ def run_AffinityPropagation(X, vector_cfg):
             continue
 
 ####TfidfVectorizer parameters####
-TfidfVec_max_df = [0.1, 0.4, 0.6, 0.8 ,1.0, 2]
-TfidfVec_min_df = [0.1, 0.4, 0.6, 0.8 ,1.0, 2]
+TfidfVec_max_min = [[0.5,0.1],[0.8,0.1],[1.0,0.1],[0.8,0.5],[1.0,0.5],[1.0,0.8],[0.5,1],[0.8,1],
+                    [1.0,1],[100,1],[0.5,2],[0.8,2],[1.0,2],[500,2],[0.5,20],[0.8,20],[1.0,20],[1000,20],[50,10] , [10,1], [0.8,100]]
 TfidfVec_analyzer = ['word','char']
-TfidfVec_stop_words = ['english', None]
+#TfidfVec_stop_words = ['english', None]
 TfidfVec_lowercase = [True, False]
-TfidfVec_binary = [True, False]
+#TfidfVec_binary = [True, False]
 TfidfVec_norm = ['l1', 'l2', None]
-TfidfVec_use_idf = [True, False]
-TfidfVec_smooth_idf = [True, False]
+#TfidfVec_use_idf = [True, False]
+#TfidfVec_smooth_idf = [True, False]
 TfidfVec_sublinear_tf = [True, False]
-#run TfidfVectorizer
-for analyzer, stop_words, lowercase, binary, norm, use_idf, smooth_idf, sublinear_tf, max_df, min_df in product(TfidfVec_analyzer, TfidfVec_stop_words, TfidfVec_lowercase, TfidfVec_binary, TfidfVec_norm, TfidfVec_use_idf, TfidfVec_smooth_idf, TfidfVec_sublinear_tf, TfidfVec_max_df, TfidfVec_min_df):
+#run TfidfVectorizer - 504 combinations
+for analyzer, lowercase, norm, sublinear_tf, max_min in product(TfidfVec_analyzer, TfidfVec_lowercase, TfidfVec_norm, TfidfVec_sublinear_tf, TfidfVec_max_min):
     #if max_df != 0.4 or min_df != 2  or  norm !='l1' or  analyzer != 'word' or  use_idf != True or smooth_idf != True or sublinear_tf != False or binary!=False or lowercase!=True or stop_words != 'english':      continue
-    print('%%%%%%%%%%%%%%%%%%Starting new vector cycle%%%%%%%%%%%%%%%%%%%%%%%%')
     print()
-    vector_cfg = 'TfidfVe max_df: %s min_df: %s analyzer: %s stop_words: %s lowercase: %s binary: %s norm: %s use_idf: %s smooth_idf:%s sublinear_tf:%s' % (max_df, min_df, analyzer, stop_words, lowercase, binary, norm, use_idf, smooth_idf, sublinear_tf)
+    print('%%%%%%%%%%%%%%%%%%Starting new TfidfVe cycle%%%%%%%%%%%%%%%%%%%%%%%%')
+    vector_cfg = 'TfidfVe max_df: %s min_df: %s analyzer: %s lowercase: %s norm: %s sublinear_tf:%s' % (max_min[0], max_min[1], analyzer, lowercase, norm, sublinear_tf)
     try:
-        vectorizer = TfidfVectorizer(max_df=max_df, min_df=min_df, analyzer=analyzer, stop_words=stop_words, lowercase=lowercase, binary=binary, norm=norm, use_idf=use_idf, smooth_idf=smooth_idf, sublinear_tf=sublinear_tf)
+        vectorizer = TfidfVectorizer(max_df=max_min[0], min_df=max_min[1], analyzer=analyzer, stop_words='english', lowercase=lowercase, norm=norm, sublinear_tf=sublinear_tf)
         X = vectorizer.fit_transform(books_texts)
         print("n_samples: %d, n_features: %d" % X.shape)
         ###clusering which takes in predifined clusters
@@ -372,20 +372,20 @@ print_res()
 
 
 ####CountVectorizer parameters####
-CountVec_max_df = [0.1, 0.4, 0.6, 0.8 ,1.0, 2]
-CountVec_min_df = [0.1, 0.4, 0.6, 0.8 ,1.0, 2]
+CountVec_max_min = [[0.5,0.1],[0.8,0.1],[1.0,0.1],[0.8,0.5],[1.0,0.5],[1.0,0.8],[0.5,1],[0.8,1],
+                    [1.0,1],[100,1],[0.5,2],[0.8,2],[1.0,2],[500,2],[0.5,20],[0.8,20],[1.0,20],[1000,20],[50,10] , [10,1], [0.8,100]]
 CountVec_analyzer = ['word','char', 'char_wb']
-CountVec_stop_words = ['english', None]
+#CountVec_stop_words = ['english', None]
 CountVec_lowercase = [True, False]
-CountVec_binary = [True, False]
+#CountVec_binary = [True, False]
 
-##run CountVectorizer
-for analyzer, stop_words, lowercase, binary, max_df, min_df in product(CountVec_analyzer, CountVec_stop_words, CountVec_lowercase, CountVec_binary, CountVec_max_df, CountVec_min_df):
-    print('%%%%%%%%%%%%%%%%%%Starting new vector cycle%%%%%%%%%%%%%%%%%%%%%%%%')
+##run CountVectorizer - 126 combinations
+for analyzer, lowercase, max_min in product(CountVec_analyzer, CountVec_lowercase, CountVec_max_min):
     print()
-    vector_cfg = 'CountVec max_df: %s min_df: %s analyzer: %s stop_words: %s lowercase: %s binary: %s' % (max_df, min_df, analyzer, stop_words, lowercase, binary)
+    print('%%%%%%%%%%%%%%%%%%Starting new CountVec cycle%%%%%%%%%%%%%%%%%%%%%%%%')
+    vector_cfg = 'CountVec max_df: %s min_df: %s analyzer: %s lowercase: %s ' % (max_min[0], max_min[1], analyzer, lowercase)
     try:
-        vectorizer = CountVectorizer(max_df=max_df, min_df=min_df, analyzer=analyzer, stop_words=stop_words, lowercase=lowercase, binary=binary)
+        vectorizer = CountVectorizer(max_df=max_min[0], min_df=max_min[1], analyzer=analyzer, stop_words='english', lowercase=lowercase)
         X = vectorizer.fit_transform(books_texts)
         print("n_samples: %d, n_features: %d" % X.shape)
         ###clusering which takes in predifined clusters
@@ -406,18 +406,19 @@ print_res()
 
 ####HshingVectorizer parameters####
 HashingVec_analyzer = ['word','char', 'char_wb']
-HashingVec_stop_words = ['english', None]
+HashingVec_n_features = [100000, 40000]
+#HashingVec_stop_words = ['english', None]
 HashingVec_lowercase = [True, False]
-HashingVec_binary = [True, False]
+#HashingVec_binary = [True, False]
 HashingVec_norm = ['l1', 'l2', None]
-HashingVec_non_negative = [True, False]
-##run HashingVectorizer
-for analyzer, stop_words, lowercase, binary, norm, non_negative in product(HashingVec_analyzer, HashingVec_stop_words, HashingVec_lowercase, HashingVec_binary, HashingVec_norm, HashingVec_non_negative):
-    print('%%%%%%%%%%%%%%%%%%Starting new vector cycle%%%%%%%%%%%%%%%%%%%%%%%%')
+#HashingVec_non_negative = [True, False]
+##run HashingVectorizer ##total 36 comibantions
+for analyzer, n_features, lowercase, norm in product(HashingVec_analyzer, HashingVec_n_features,  HashingVec_lowercase, HashingVec_norm):
     print()
-    vector_cfg = 'HashVec analyzer: %s stop_words: %s lowercase: %s binary: %s norm: %s non_negative: %s' % (analyzer, stop_words, lowercase, binary, norm, non_negative)
+    print('%%%%%%%%%%%%%%%%%%Starting new HashVec cycle%%%%%%%%%%%%%%%%%%%%%%%%')
+    vector_cfg = 'HashVec analyzer: %s n_features: %s lowercase: %s norm: %s' % (analyzer, n_features, lowercase, norm)
     try:
-        vectorizer = HashingVectorizer(analyzer=analyzer, stop_words=stop_words, lowercase=lowercase, binary=binary, norm=norm, non_negative=non_negative)
+        vectorizer = HashingVectorizer(analyzer=analyzer, n_features=n_features, stop_words='english', lowercase=lowercase, norm=norm)
         X = vectorizer.fit_transform(books_texts)
         print("n_samples: %d, n_features: %d" % X.shape)
         ###clusering which takes in predifined clusters
