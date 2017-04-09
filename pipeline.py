@@ -60,16 +60,17 @@ labels8_2 = [7, 2, 7, 7, 0, 6, 6, 2, 1, 0, 6, 1, 3, 0, 7, 6, 0, 1, 6, 5, 6, 4, 1
 labels9_1 = [8, 2, 8, 8, 0, 7, 7, 2, 1, 0, 7, 1, 4, 0, 8, 7, 0, 1, 7, 6, 7, 5, 1, 3]
 
 #### names of the metrics used###########
-metrics_namesz = ['silhouette_score', 'calinski_harabaz_score']
+metrics_namesz = [#'silhouette_score',
+'calinski_harabaz_score']
 metrics_names = ['adjusted_rand_score',
-                 'normalized_mutual_info_score',
-                 'mutual_info_score',
-                 'adjusted_mutual_info_score',
-                 'homogeneity_score', 'completeness_score',
-                 'v_measure_score',
+                 #'normalized_mutual_info_score',
+                 #'mutual_info_score',
+                 #'adjusted_mutual_info_score',
+                 #'homogeneity_score', 'completeness_score',
+                 #'v_measure_score',
                  #'homogeneity_completeness_v_measure',
-                 'fowlkes_mallows_score',
-                 'silhouette_score',
+                 #'fowlkes_mallows_score',
+                 #'silhouette_score',
                  'calinski_harabaz_score']
 
 ####metrics resullts dic############
@@ -98,7 +99,7 @@ def define_metrics(dic_metrics):
 def define_metrics_new(dic_metrics, label):
   labels_dict = {}
   for metrical in metrics_namesz:
-    label_dict = {metrical: { 'val' : 0, 'res_label': [],  'vector_cfg': '', 'cluster_cfg': '', 'other_metrics': []}}
+    label_dict = {metrical: { 'val' : 0, 'res_label': [],  'vector_cfg': '', 'agg_cfg': '', 'k-mean_cfg': '', 'other_metrics': []}}
     labels_dict.update(label_dict)
   dic_metrics[label] = labels_dict
 
@@ -158,20 +159,20 @@ def get_results_with_n(result_lab, n_clusters, X, best_metrics , vector_cfg, clu
         target_labs = [labels8_1,labels8_2]
     elif n_clusters == 9:
         target_labs = [labels9_1]
-
+    print(result_lab)
     for ind, target_lab in enumerate(target_labs):
         current_label = 'labels' + str(n_clusters) + '_' +  str(ind+1)
         print('@@@metric results for %s' % current_label)
         metrics_num = [metrics.adjusted_rand_score(target_lab, result_lab), #perect fit is 1.0
-                      metrics.normalized_mutual_info_score(target_lab, result_lab),  #perfect fit is 1.0
-                      metrics.mutual_info_score(target_lab, result_lab), #perfect fit is 1.0
-                      metrics.adjusted_mutual_info_score(target_lab, result_lab), #perfect fit is 1.0
-                      metrics.homogeneity_score(target_lab, result_lab), #perfect fit is 1.0
-                      metrics.completeness_score(target_lab, result_lab), #perfect fit is 1.0
-                      metrics.v_measure_score(target_lab, result_lab), #perfect fit is 1.0
+                      #metrics.normalized_mutual_info_score(target_lab, result_lab),  #perfect fit is 1.0
+                      #metrics.mutual_info_score(target_lab, result_lab), #perfect fit is 1.0
+                      #metrics.adjusted_mutual_info_score(target_lab, result_lab), #perfect fit is 1.0
+                      #metrics.homogeneity_score(target_lab, result_lab), #perfect fit is 1.0
+                      #metrics.completeness_score(target_lab, result_lab), #perfect fit is 1.0
+                      #metrics.v_measure_score(target_lab, result_lab), #perfect fit is 1.0
                       #metrics.homogeneity_completeness_v_measure(target_lab, result_lab),
-                      metrics.fowlkes_mallows_score(target_lab, result_lab), #perfect fit is 1.0
-                      metrics.silhouette_score(X.todense(), result_lab, metric='euclidean'), #the higher the better
+                      #metrics.fowlkes_mallows_score(target_lab, result_lab), #perfect fit is 1.0
+                      #metrics.silhouette_score(X.todense(), result_lab, metric='euclidean'), #the higher the better
                       metrics.calinski_harabaz_score(X.todense(), result_lab)] #the higher the better
 
         print([metrics_names[index] +": "+ str(value) for index, value in enumerate(metrics_num)])
@@ -186,7 +187,7 @@ def get_results_with_n(result_lab, n_clusters, X, best_metrics , vector_cfg, clu
                 best_metrics[current_label][metrics_names[ind]]['res_label'] = result_lab
                 best_metrics[current_label][metrics_names[ind]]['vector_cfg'] = vector_cfg
                 best_metrics[current_label][metrics_names[ind]]['cluster_cfg'] = cluster_cfg
-                best_metrics[current_label][metrics_names[ind]]['other_metrics'] = [metrics_names[index] +": "+ str(value) for index, value in enumerate(metrics_num) if value != metric]
+                #best_metrics[current_label][metrics_names[ind]]['other_metrics'] = [metrics_names[index] +": "+ str(value) for index, value in enumerate(metrics_num) if value != metric]
             ##save results for the co0mmon metrics
             if common_metrics[current_label][metrics_names[ind]]['val'] < metric:
                 ###save summary##
@@ -197,7 +198,7 @@ def get_results_with_n(result_lab, n_clusters, X, best_metrics , vector_cfg, clu
                 common_metrics[current_label][metrics_names[ind]]['res_label'] = result_lab
                 common_metrics[current_label][metrics_names[ind]]['vector_cfg'] = vector_cfg
                 common_metrics[current_label][metrics_names[ind]]['cluster_cfg'] = cluster_cfg
-                common_metrics[current_label][metrics_names[ind]]['other_metrics'] = [metrics_names[index] +": "+ str(value) for index, value in enumerate(metrics_num) if value != metric]
+                #common_metrics[current_label][metrics_names[ind]]['other_metrics'] = [metrics_names[index] +": "+ str(value) for index, value in enumerate(metrics_num) if value != metric]
 
 def get_results_without_n(result_lab, n_clusters, X, best_metrics , vector_cfg, cluster_cfg):
 
@@ -207,8 +208,9 @@ def get_results_without_n(result_lab, n_clusters, X, best_metrics , vector_cfg, 
 
     current_label = 'labels' + str(n_clusters) + '_1'
     print('@@@metric results for %s' % current_label)
-    metrics_numz = [metrics.silhouette_score(X.todense(), result_lab, metric='euclidean'), metrics.calinski_harabaz_score(X.todense(), result_lab)]
-
+    metrics_numz = [#metrics.silhouette_score(X.todense(), result_lab, metric='euclidean'),
+    metrics.calinski_harabaz_score(X.todense(), result_lab)]
+    print(result_lab)
     print([metrics_namesz[index] +": "+ str(value) for index, value in enumerate(metrics_numz)])
     for ind, metric in enumerate(metrics_numz):
         ###save results for this clustering method
@@ -224,7 +226,7 @@ def get_results_without_n(result_lab, n_clusters, X, best_metrics , vector_cfg, 
             best_metrics[current_label][metrics_namesz[ind]]['res_label'] = result_lab
             best_metrics[current_label][metrics_namesz[ind]]['vector_cfg'] = vector_cfg
             best_metrics[current_label][metrics_namesz[ind]]['cluster_cfg'] = cluster_cfg
-            best_metrics[current_label][metrics_namesz[ind]]['other_metrics'] = [metrics_namesz[index] +": "+ str(value) for index,value in enumerate(metrics_numz) if value != metric]
+            #best_metrics[current_label][metrics_namesz[ind]]['other_metrics'] = [metrics_namesz[index] +": "+ str(value) for index,value in enumerate(metrics_numz) if value != metric]
 
 ###AgglomerativeClustering parameters and definitoon####
 AggloClu_n_clusters = [7,8,9]
@@ -333,16 +335,15 @@ def run_AffinityPropagation(X, vector_cfg):
             continue
 
 ####TfidfVectorizer parameters####
-TfidfVec_max_min = [[0.5,0.1],[0.8,0.1],[1.0,0.1],[0.8,0.5],[1.0,0.5],[1.0,0.8],[0.5,1],[0.8,1],
-                    [1.0,1],[100,1],[0.5,2],[0.8,2],[1.0,2],[500,2],[0.5,20],[0.8,20],[1.0,20],[1000,20],[50,10] , [10,1], [0.8,100]]
-TfidfVec_analyzer = ['word','char']
+TfidfVec_max_min = [[0.5,2]]
+TfidfVec_analyzer = ['word']
 #TfidfVec_stop_words = ['english', None]
-TfidfVec_lowercase = [True, False]
+TfidfVec_lowercase = [True]
 #TfidfVec_binary = [True, False]
-TfidfVec_norm = ['l1', 'l2', None]
+TfidfVec_norm = ['l2']
 #TfidfVec_use_idf = [True, False]
 #TfidfVec_smooth_idf = [True, False]
-TfidfVec_sublinear_tf = [True, False]
+TfidfVec_sublinear_tf = [False]
 #run TfidfVectorizer - 504 combinations
 for analyzer, lowercase, norm, sublinear_tf, max_min in product(TfidfVec_analyzer, TfidfVec_lowercase, TfidfVec_norm, TfidfVec_sublinear_tf, TfidfVec_max_min):
     #if max_df != 0.4 or min_df != 2  or  norm !='l1' or  analyzer != 'word' or  use_idf != True or smooth_idf != True or sublinear_tf != False or binary!=False or lowercase!=True or stop_words != 'english':      continue
@@ -369,14 +370,11 @@ print('#################  Just finished TfidVec  ###############################
 print('###############################################################################')
 print_res()
 
-
-
 ####CountVectorizer parameters####
-CountVec_max_min = [[0.5,0.1],[0.8,0.1],[1.0,0.1],[0.8,0.5],[1.0,0.5],[1.0,0.8],[0.5,1],[0.8,1],
-                    [1.0,1],[100,1],[0.5,2],[0.8,2],[1.0,2],[500,2],[0.5,20],[0.8,20],[1.0,20],[1000,20],[50,10] , [10,1], [0.8,100]]
-CountVec_analyzer = ['word','char', 'char_wb']
+CountVec_max_min = [[0.5,2]]
+CountVec_analyzer = ['word']
 #CountVec_stop_words = ['english', None]
-CountVec_lowercase = [True, False]
+CountVec_lowercase = [True]
 #CountVec_binary = [True, False]
 
 ##run CountVectorizer - 126 combinations
@@ -404,35 +402,35 @@ print('#################  Just finished CountVectorizer ########################
 print('##############################################################################')
 print_res()
 
-####HshingVectorizer parameters####
-HashingVec_analyzer = ['word','char', 'char_wb']
-HashingVec_n_features = [100000, 40000]
-#HashingVec_stop_words = ['english', None]
-HashingVec_lowercase = [True, False]
-#HashingVec_binary = [True, False]
-HashingVec_norm = ['l1', 'l2', None]
-#HashingVec_non_negative = [True, False]
-##run HashingVectorizer ##total 36 comibantions
-for analyzer, n_features, lowercase, norm in product(HashingVec_analyzer, HashingVec_n_features,  HashingVec_lowercase, HashingVec_norm):
-    print()
-    print('%%%%%%%%%%%%%%%%%%Starting new HashVec cycle%%%%%%%%%%%%%%%%%%%%%%%%')
-    vector_cfg = 'HashVec analyzer: %s n_features: %s lowercase: %s norm: %s' % (analyzer, n_features, lowercase, norm)
-    try:
-        vectorizer = HashingVectorizer(analyzer=analyzer, n_features=n_features, stop_words='english', lowercase=lowercase, norm=norm)
-        X = vectorizer.fit_transform(books_texts)
-        print("n_samples: %d, n_features: %d" % X.shape)
-        ###clusering which takes in predifined clusters
-        run_AggloClu(X, vector_cfg)
-        run_KMeansClu(X, vector_cfg)
-        run_Birch(X, vector_cfg)
-        ###clusering which does not take in predifined clusters
-        run_MeanShift(X, vector_cfg)
-        run_AffinityPropagation(X, vector_cfg)
-    except ValueError as error:
-        print("Caught error: %s" %error)
-        continue
-
-print('#############################################################################')
-print('#################  Just finished all ###############################')
-print('##############################################################################')
-print_res()
+# ####HshingVectorizer parameters####
+# HashingVec_analyzer = ['word']
+# HashingVec_n_features = [200000]
+# #HashingVec_stop_words = ['english', None]
+# HashingVec_lowercase = [True]
+# #HashingVec_binary = [True, False]
+# HashingVec_norm = ['l1']
+# #HashingVec_non_negative = [True, False]
+# ##run HashingVectorizer ##total 36 comibantions
+# for analyzer, n_features, lowercase, norm in product(HashingVec_analyzer, HashingVec_n_features,  HashingVec_lowercase, HashingVec_norm):
+#     print()
+#     print('%%%%%%%%%%%%%%%%%%Starting new HashVec cycle%%%%%%%%%%%%%%%%%%%%%%%%')
+#     vector_cfg = 'HashVec analyzer: %s n_features: %s lowercase: %s norm: %s' % (analyzer, n_features, lowercase, norm)
+#     try:
+#         vectorizer = HashingVectorizer(analyzer=analyzer, n_features=n_features, stop_words='english', lowercase=lowercase, norm=norm)
+#         X = vectorizer.fit_transform(books_texts)
+#         print("n_samples: %d, n_features: %d" % X.shape)
+#         ###clusering which takes in predifined clusters
+#         run_AggloClu(X, vector_cfg)
+#         run_KMeansClu(X, vector_cfg)
+#         run_Birch(X, vector_cfg)
+#         ###clusering which does not take in predifined clusters
+#         run_MeanShift(X, vector_cfg)
+#         run_AffinityPropagation(X, vector_cfg)
+#     except ValueError as error:
+#         print("Caught error: %s" %error)
+#         continue
+#
+# print('#############################################################################')
+# print('#################  Just finished all ###############################')
+# print('##############################################################################')
+# print_res()

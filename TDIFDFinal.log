@@ -1,0 +1,2622 @@
+['gap_ogsNAAAAIAAJ', 'gap_9ksIAAAAQAAJ', 'gap_y-AvAAAAYAAJ', 'gap_TgpMAAAAYAAJ', 'gap_pX5KAAAAYAAJ', 'gap_aLcWAAAAQAAJ', 'gap_GIt0HMhqjRgC', 'gap_fnAMAAAAYAAJ', 'gap_m_6B1DkImIoC', 'gap_MEoWAAAAYAAJ', 'gap_IlUMAQAAMAAJ', 'gap_DqQNAAAAYAAJ', 'gap_-C0BAAAAQAAJ', 'gap_WORMAAAAYAAJ', 'gap_CnnUAAAAMAAJ', 'gap_XmqHlMECi6kC', 'gap_2X5KAAAAYAAJ', 'gap_Bdw_AAAAYAAJ', 'gap_VPENAAAAQAAJ', 'gap_dIkBAAAAQAAJ', 'gap_CSEUAAAAYAAJ', 'gap_udEIAAAAQAAJ', 'gap_RqMNAAAAYAAJ', 'gap_DhULAAAAYAAJ']
+
+%%%%%%%%%%%%%%%%%%Starting new TfidfVe cycle%%%%%%%%%%%%%%%%%%%%%%%%
+n_samples: 24, n_features: 41553
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: euclidean linkage: ward
+[5 3 5 5 0 6 4 3 1 0 6 1 2 0 5 4 0 1 4 2 4 2 1 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.751739026145', 'calinski_harabaz_score: 2.41337604648']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.817941952507', 'calinski_harabaz_score: 2.41337604648']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: euclidean linkage: complete
+[3 2 3 3 6 5 5 2 0 6 5 0 1 4 3 5 4 0 5 1 5 1 0 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.904177757204', 'calinski_harabaz_score: 2.30725726572']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.840296262007', 'calinski_harabaz_score: 2.30725726572']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: euclidean linkage: average
+[6 2 6 6 0 5 5 2 1 0 5 1 4 0 6 5 0 1 5 4 5 3 1 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 1.0', 'calinski_harabaz_score: 2.25761487345']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.937577745109', 'calinski_harabaz_score: 2.25761487345']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: l1 linkage: complete
+[0 0 0 0 0 1 2 0 0 0 1 0 3 5 0 4 0 0 2 0 4 0 0 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0779318096665', 'calinski_harabaz_score: 1.50363811943']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0779318096665', 'calinski_harabaz_score: 1.50363811943']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: l1 linkage: average
+[0 0 0 0 0 2 1 0 0 0 2 0 3 5 0 1 0 0 1 6 1 0 0 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.181418288456', 'calinski_harabaz_score: 1.58867605766']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.181418288456', 'calinski_harabaz_score: 1.58867605766']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: l2 linkage: complete
+[3 2 3 3 6 5 5 2 0 6 5 0 1 4 3 5 4 0 5 1 5 1 0 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.904177757204', 'calinski_harabaz_score: 2.30725726572']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.840296262007', 'calinski_harabaz_score: 2.30725726572']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: l2 linkage: average
+[6 2 6 6 0 5 5 2 1 0 5 1 4 0 6 5 0 1 5 4 5 3 1 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 1.0', 'calinski_harabaz_score: 2.25761487345']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.937577745109', 'calinski_harabaz_score: 2.25761487345']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: manhattan linkage: complete
+[0 0 0 0 0 1 2 0 0 0 1 0 3 5 0 4 0 0 2 0 4 0 0 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0779318096665', 'calinski_harabaz_score: 1.50363811943']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0779318096665', 'calinski_harabaz_score: 1.50363811943']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: manhattan linkage: average
+[0 0 0 0 0 2 1 0 0 0 2 0 3 5 0 1 0 0 1 6 1 0 0 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.181418288456', 'calinski_harabaz_score: 1.58867605766']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.181418288456', 'calinski_harabaz_score: 1.58867605766']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: cosine linkage: complete
+[3 2 3 3 6 5 5 2 0 6 5 0 1 4 3 5 4 0 5 1 5 1 0 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.904177757204', 'calinski_harabaz_score: 2.30725726572']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.840296262007', 'calinski_harabaz_score: 2.30725726572']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: cosine linkage: average
+[6 2 6 6 0 5 5 2 1 0 5 1 4 0 6 5 0 1 5 4 5 3 1 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 1.0', 'calinski_harabaz_score: 2.25761487345']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.937577745109', 'calinski_harabaz_score: 2.25761487345']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: precomputed linkage: complete
+[1 1 1 1 2 1 1 1 2 0 2 0 2 1 0 6 5 1 1 4 1 2 3 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0297286969813', 'calinski_harabaz_score: 1.02933539867']
+@@@metric results for labels7_2
+['adjusted_rand_score: -0.0124570118456', 'calinski_harabaz_score: 1.02933539867']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 7 affinity: precomputed linkage: average
+[1 1 1 1 2 1 1 1 2 0 2 0 2 1 0 6 5 1 1 4 1 2 3 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0297286969813', 'calinski_harabaz_score: 1.02933539867']
+@@@metric results for labels7_2
+['adjusted_rand_score: -0.0124570118456', 'calinski_harabaz_score: 1.02933539867']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: euclidean linkage: ward
+[5 7 5 5 3 6 4 7 0 3 6 0 2 1 5 4 1 0 4 2 4 2 0 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.695877625097', 'calinski_harabaz_score: 2.38041328454']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.647239263804', 'calinski_harabaz_score: 2.38041328454']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: euclidean linkage: complete
+[7 2 7 7 6 5 5 2 1 6 5 3 0 4 7 5 4 1 5 0 5 0 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.793593418921', 'calinski_harabaz_score: 2.26384370052']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.813284132841', 'calinski_harabaz_score: 2.26384370052']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: euclidean linkage: average
+[6 2 6 6 3 5 5 2 0 3 5 0 1 4 6 5 4 0 5 1 5 7 0 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.899380240612', 'calinski_harabaz_score: 2.22816385013']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.91720662347', 'calinski_harabaz_score: 2.22816385013']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: l1 linkage: complete
+[1 1 1 1 0 3 2 1 1 0 3 1 7 5 1 4 0 1 2 0 4 0 1 6]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.297482413921', 'calinski_harabaz_score: 1.59622014437']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.289966923925', 'calinski_harabaz_score: 1.59622014437']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: l1 linkage: average
+[2 2 2 2 2 0 1 2 2 2 0 2 7 5 2 1 2 2 1 6 1 3 2 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.248288553552', 'calinski_harabaz_score: 1.5725754812']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.241091069072', 'calinski_harabaz_score: 1.5725754812']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: l2 linkage: complete
+[7 2 7 7 6 5 5 2 1 6 5 3 0 4 7 5 4 1 5 0 5 0 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.793593418921', 'calinski_harabaz_score: 2.26384370052']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.813284132841', 'calinski_harabaz_score: 2.26384370052']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: l2 linkage: average
+[6 2 6 6 3 5 5 2 0 3 5 0 1 4 6 5 4 0 5 1 5 7 0 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.899380240612', 'calinski_harabaz_score: 2.22816385013']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.91720662347', 'calinski_harabaz_score: 2.22816385013']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: manhattan linkage: complete
+[1 1 1 1 0 3 2 1 1 0 3 1 7 5 1 4 0 1 2 0 4 0 1 6]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.297482413921', 'calinski_harabaz_score: 1.59622014437']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.289966923925', 'calinski_harabaz_score: 1.59622014437']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: manhattan linkage: average
+[2 2 2 2 2 0 1 2 2 2 0 2 7 5 2 1 2 2 1 6 1 3 2 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.248288553552', 'calinski_harabaz_score: 1.5725754812']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.241091069072', 'calinski_harabaz_score: 1.5725754812']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: cosine linkage: complete
+[7 2 7 7 6 5 5 2 1 6 5 3 0 4 7 5 4 1 5 0 5 0 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.793593418921', 'calinski_harabaz_score: 2.26384370052']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.813284132841', 'calinski_harabaz_score: 2.26384370052']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: cosine linkage: average
+[6 2 6 6 3 5 5 2 0 3 5 0 1 4 6 5 4 0 5 1 5 7 0 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.899380240612', 'calinski_harabaz_score: 2.22816385013']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.91720662347', 'calinski_harabaz_score: 2.22816385013']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: precomputed linkage: complete
+[1 1 1 1 2 1 1 1 2 0 2 0 2 1 7 6 5 1 1 4 1 2 3 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.00509364469869', 'calinski_harabaz_score: 1.04062067935']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0421151146467', 'calinski_harabaz_score: 1.04062067935']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 8 affinity: precomputed linkage: average
+[1 1 1 1 2 1 1 1 2 0 2 0 2 1 7 6 5 1 1 4 1 2 3 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.00509364469869', 'calinski_harabaz_score: 1.04062067935']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0421151146467', 'calinski_harabaz_score: 1.04062067935']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: euclidean linkage: ward
+[5 7 5 5 3 6 4 7 2 3 6 8 0 1 5 4 1 2 4 0 4 0 8 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.577629382304', 'calinski_harabaz_score: 2.37585951478']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: euclidean linkage: complete
+[7 0 7 7 6 5 5 0 1 6 5 3 2 4 7 5 4 1 5 2 5 8 3 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.803061754022', 'calinski_harabaz_score: 2.22237914888']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: euclidean linkage: average
+[6 2 6 6 3 5 5 2 1 3 5 8 0 4 6 5 4 1 5 0 5 7 8 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.803061754022', 'calinski_harabaz_score: 2.22237914888']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: l1 linkage: complete
+[0 0 0 0 1 3 2 0 0 1 3 0 7 5 0 4 1 0 2 8 4 1 0 6]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.330616996508', 'calinski_harabaz_score: 1.57722297528']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: l1 linkage: average
+[2 2 2 2 2 8 0 2 2 2 4 2 7 5 2 0 2 2 0 6 0 3 2 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.239499553172', 'calinski_harabaz_score: 1.46221389209']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: l2 linkage: complete
+[7 0 7 7 6 5 5 0 1 6 5 3 2 4 7 5 4 1 5 2 5 8 3 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.803061754022', 'calinski_harabaz_score: 2.22237914888']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: l2 linkage: average
+[6 2 6 6 3 5 5 2 1 3 5 8 0 4 6 5 4 1 5 0 5 7 8 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.803061754022', 'calinski_harabaz_score: 2.22237914888']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: manhattan linkage: complete
+[0 0 0 0 1 3 2 0 0 1 3 0 7 5 0 4 1 0 2 8 4 1 0 6]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.330616996508', 'calinski_harabaz_score: 1.57722297528']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: manhattan linkage: average
+[2 2 2 2 2 8 0 2 2 2 4 2 7 5 2 0 2 2 0 6 0 3 2 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.239499553172', 'calinski_harabaz_score: 1.46221389209']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: cosine linkage: complete
+[7 0 7 7 6 5 5 0 1 6 5 3 2 4 7 5 4 1 5 2 5 8 3 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.803061754022', 'calinski_harabaz_score: 2.22237914888']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: cosine linkage: average
+[6 2 6 6 3 5 5 2 1 3 5 8 0 4 6 5 4 1 5 0 5 7 8 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.803061754022', 'calinski_harabaz_score: 2.22237914888']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: precomputed linkage: complete
+[1 1 1 1 0 1 1 1 0 8 0 5 0 1 7 6 2 1 1 4 1 0 3 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0139726897428', 'calinski_harabaz_score: 1.04553710311']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AggloClu with n_clusters: 9 affinity: precomputed linkage: average
+[1 1 1 1 0 1 1 1 0 8 0 5 0 1 7 6 2 1 1 4 1 0 3 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0139726897428', 'calinski_harabaz_score: 1.04553710311']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.0001
+[5 4 5 5 0 6 3 4 2 0 6 2 1 0 5 3 0 2 3 1 3 1 2 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.832463275464', 'calinski_harabaz_score: 2.41214335098']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.76544858565', 'calinski_harabaz_score: 2.41214335098']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.001
+[3 1 3 3 4 2 5 1 6 4 2 6 0 4 3 5 4 6 5 0 5 0 6 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.832463275464', 'calinski_harabaz_score: 2.41214335098']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.76544858565', 'calinski_harabaz_score: 2.41214335098']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.01
+[2 0 2 2 3 5 1 0 4 3 5 6 5 3 2 1 3 4 1 6 1 4 6 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.677728613569', 'calinski_harabaz_score: 2.35074318086']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.6098820059', 'calinski_harabaz_score: 2.35074318086']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.1
+[0 6 0 0 5 3 4 6 2 5 3 2 1 1 0 4 5 2 4 1 4 1 2 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.731941240743', 'calinski_harabaz_score: 2.39642051937']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.664926550929', 'calinski_harabaz_score: 2.39642051937']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001
+[2 3 2 2 6 1 1 3 5 6 1 5 4 0 2 1 0 5 1 4 1 4 5 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.904177757204', 'calinski_harabaz_score: 2.30725726572']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.840296262007', 'calinski_harabaz_score: 2.30725726572']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.001
+[0 3 0 0 6 1 2 3 4 6 1 4 5 5 0 2 6 4 2 5 2 5 4 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.731941240743', 'calinski_harabaz_score: 2.39642051937']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.664926550929', 'calinski_harabaz_score: 2.39642051937']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.01
+[4 5 4 4 6 2 0 5 1 6 2 1 2 3 4 0 3 1 0 1 0 3 1 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.652434636604', 'calinski_harabaz_score: 2.36302361643']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.586231710242', 'calinski_harabaz_score: 2.36302361643']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.1
+[1 3 1 1 0 2 4 3 5 0 2 6 2 0 1 4 0 5 4 6 4 0 6 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.652434636604', 'calinski_harabaz_score: 2.35136207631']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.586231710242', 'calinski_harabaz_score: 2.35136207631']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: full tol: 0.0001
+[3 0 1 3 2 5 4 0 6 2 5 6 1 2 1 4 2 6 4 6 4 0 6 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.640241734803', 'calinski_harabaz_score: 2.09788768655']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.57483114113', 'calinski_harabaz_score: 2.09788768655']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: full tol: 0.001
+[2 4 2 2 3 5 5 4 0 3 5 6 4 4 2 5 3 0 5 4 5 1 6 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.731372336974', 'calinski_harabaz_score: 2.18137184281']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.731372336974', 'calinski_harabaz_score: 2.18137184281']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: full tol: 0.01
+[2 5 2 2 0 3 3 5 4 0 3 4 6 6 2 3 0 4 3 6 3 6 1 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.826355525051', 'calinski_harabaz_score: 2.19884815675']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.763212079616', 'calinski_harabaz_score: 2.19884815675']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: full tol: 0.1
+[5 0 5 5 6 1 3 0 0 6 1 4 2 6 5 3 6 0 3 4 3 6 4 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.57483114113', 'calinski_harabaz_score: 2.26683733402']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.607536437967', 'calinski_harabaz_score: 2.26683733402']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.0001
+[4 5 4 4 3 0 0 5 1 3 0 1 2 6 4 0 6 1 0 2 0 2 1 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.904177757204', 'calinski_harabaz_score: 2.30725726572']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.840296262007', 'calinski_harabaz_score: 2.30725726572']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.001
+[1 0 1 1 2 6 4 0 5 2 6 5 5 2 1 4 2 3 4 5 4 5 5 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.605353466026', 'calinski_harabaz_score: 2.33923882232']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.605353466026', 'calinski_harabaz_score: 2.33923882232']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.01
+[4 1 4 4 6 3 2 1 5 5 3 5 6 6 4 0 6 5 2 5 2 6 5 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.521690518784', 'calinski_harabaz_score: 2.16367616895']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.459973166369', 'calinski_harabaz_score: 2.16367616895']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.1
+[3 0 3 3 6 4 1 0 6 6 4 2 5 5 3 1 6 5 1 2 1 5 2 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.5308971713', 'calinski_harabaz_score: 2.29243205877']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.463882481486', 'calinski_harabaz_score: 2.29243205877']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: full tol: 0.0001
+[2 4 2 2 3 5 1 4 6 3 5 6 0 0 2 1 3 6 1 0 1 0 6 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.731941240743', 'calinski_harabaz_score: 2.39642051937']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.664926550929', 'calinski_harabaz_score: 2.39642051937']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: full tol: 0.001
+[2 6 2 2 3 1 1 6 0 3 1 0 4 5 2 1 5 0 1 4 1 4 0 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.904177757204', 'calinski_harabaz_score: 2.30725726572']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.840296262007', 'calinski_harabaz_score: 2.30725726572']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: full tol: 0.01
+[2 4 2 2 3 1 1 4 6 3 1 6 5 0 2 1 0 6 1 5 1 5 6 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.904177757204', 'calinski_harabaz_score: 2.30725726572']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.840296262007', 'calinski_harabaz_score: 2.30725726572']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: full tol: 0.1
+[2 4 2 2 3 5 0 4 6 3 5 6 1 1 2 0 3 6 0 1 0 1 6 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.731941240743', 'calinski_harabaz_score: 2.39642051937']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.664926550929', 'calinski_harabaz_score: 2.39642051937']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.0001
+[0 6 0 0 3 4 1 6 2 3 4 2 6 5 0 1 5 2 1 6 1 6 2 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.636925188744', 'calinski_harabaz_score: 2.36643558052']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.636925188744', 'calinski_harabaz_score: 2.36643558052']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.001
+[3 1 3 3 5 0 2 1 4 5 0 4 6 5 3 2 5 4 2 6 2 6 4 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.832463275464', 'calinski_harabaz_score: 2.41214335098']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.76544858565', 'calinski_harabaz_score: 2.41214335098']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.01
+[4 6 4 4 3 5 0 6 2 3 5 2 1 3 4 0 3 2 0 1 0 1 2 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.832463275464', 'calinski_harabaz_score: 2.41214335098']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.76544858565', 'calinski_harabaz_score: 2.41214335098']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.1
+[4 1 4 4 6 5 3 1 2 6 5 2 5 6 4 3 6 2 3 0 3 0 2 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.798955930557', 'calinski_harabaz_score: 2.36816778743']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.731941240743', 'calinski_harabaz_score: 2.36816778743']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: full tol: 0.0001
+[0 6 0 0 3 2 2 6 5 3 2 5 4 4 0 2 3 5 2 1 2 4 5 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.889498970487', 'calinski_harabaz_score: 2.23233264632']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.826355525051', 'calinski_harabaz_score: 2.23233264632']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: full tol: 0.001
+[6 3 6 6 1 2 0 3 5 1 2 5 3 3 6 0 1 5 0 4 0 3 5 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.625466470655', 'calinski_harabaz_score: 2.28633965688']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.594255343209', 'calinski_harabaz_score: 2.28633965688']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: full tol: 0.01
+[5 0 5 5 6 4 3 0 0 6 4 0 5 1 5 2 1 0 3 0 2 1 0 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.381368904439', 'calinski_harabaz_score: 1.94249154616']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.381368904439', 'calinski_harabaz_score: 1.94249154616']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: full tol: 0.1
+[1 4 1 1 6 5 5 4 2 6 5 0 6 3 1 5 1 2 5 6 5 3 0 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.719099852991', 'calinski_harabaz_score: 2.07477811977']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.6566775981', 'calinski_harabaz_score: 2.07477811977']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: elkan tol: 0.0001
+[3 0 3 3 5 0 2 6 4 5 1 4 0 5 3 2 5 4 2 6 2 6 4 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.672947031639', 'calinski_harabaz_score: 2.14533276448']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.672947031639', 'calinski_harabaz_score: 2.14533276448']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: elkan tol: 0.001
+[3 5 3 3 2 6 6 5 2 2 6 0 0 2 3 6 2 1 6 0 6 4 0 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.755887230514', 'calinski_harabaz_score: 2.16649669358']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.755887230514', 'calinski_harabaz_score: 2.16649669358']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: elkan tol: 0.01
+[0 2 0 0 1 5 6 2 1 1 5 4 0 3 0 6 3 2 6 4 6 4 4 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.476715250622', 'calinski_harabaz_score: 2.19180573005']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.41130465695', 'calinski_harabaz_score: 2.19180573005']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: elkan tol: 0.1
+[1 5 1 1 2 0 6 5 3 4 0 3 0 2 1 0 2 3 6 4 6 2 3 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.664926550929', 'calinski_harabaz_score: 2.224806696']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.597911861114', 'calinski_harabaz_score: 2.224806696']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: full tol: 0.0001
+[2 1 2 2 6 4 5 1 0 6 4 0 3 6 2 5 6 0 5 3 5 3 0 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.832463275464', 'calinski_harabaz_score: 2.41214335098']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.76544858565', 'calinski_harabaz_score: 2.41214335098']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: full tol: 0.001
+[6 1 6 6 0 2 2 1 5 0 2 3 4 4 6 2 0 5 2 4 2 4 3 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.808355514408', 'calinski_harabaz_score: 2.27917785951']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.744474019211', 'calinski_harabaz_score: 2.27917785951']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: full tol: 0.01
+[1 5 1 1 6 0 0 5 3 6 0 3 4 2 1 0 2 3 0 4 0 4 3 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.904177757204', 'calinski_harabaz_score: 2.30725726572']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.840296262007', 'calinski_harabaz_score: 2.30725726572']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: full tol: 0.1
+[1 2 1 1 6 0 4 2 5 6 0 5 3 6 1 4 6 5 4 3 4 3 5 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.832463275464', 'calinski_harabaz_score: 2.41214335098']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.76544858565', 'calinski_harabaz_score: 2.41214335098']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.0001
+[1 2 1 1 4 6 0 2 5 4 6 3 1 4 1 0 4 5 0 3 0 3 3 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.640241734803', 'calinski_harabaz_score: 2.27680308813']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.57483114113', 'calinski_harabaz_score: 2.27680308813']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.001
+[4 6 4 4 3 0 1 6 2 3 0 2 0 3 4 1 3 2 1 2 1 5 2 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.757611241218', 'calinski_harabaz_score: 2.34261765375']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.692974238876', 'calinski_harabaz_score: 2.34261765375']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.01
+[2 6 2 2 3 5 0 6 4 3 5 4 2 1 2 0 1 4 0 4 0 1 4 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.628337236534', 'calinski_harabaz_score: 2.28300148097']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.563700234192', 'calinski_harabaz_score: 2.28300148097']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.1
+[1 6 1 1 5 2 3 6 4 5 2 4 2 5 1 3 5 4 3 0 3 0 4 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.798955930557', 'calinski_harabaz_score: 2.36816778743']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.731941240743', 'calinski_harabaz_score: 2.36816778743']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.0001
+[1 5 1 1 4 6 2 5 4 4 6 4 1 0 1 2 3 5 2 4 2 0 4 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.450746268657', 'calinski_harabaz_score: 2.09793254131']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.389718076285', 'calinski_harabaz_score: 2.09793254131']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.001
+[5 6 5 5 2 4 4 6 0 2 4 0 6 3 5 4 3 0 4 1 4 6 0 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.816915422886', 'calinski_harabaz_score: 2.2234057418']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.7864013267', 'calinski_harabaz_score: 2.2234057418']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.01
+[6 2 6 6 5 4 0 2 3 3 4 3 5 5 6 1 5 3 0 3 1 5 3 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.500621960873', 'calinski_harabaz_score: 2.1905813518']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.438199705982', 'calinski_harabaz_score: 2.1905813518']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.1
+[2 3 2 2 1 6 6 3 5 4 6 5 4 1 2 6 1 5 6 4 6 0 5 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.921070693205', 'calinski_harabaz_score: 2.22357688826']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.857927247769', 'calinski_harabaz_score: 2.22357688826']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: elkan tol: 0.0001
+[2 6 2 2 1 0 3 6 5 1 3 4 5 1 2 3 1 6 3 4 3 5 4 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.692974238876', 'calinski_harabaz_score: 2.14648377499']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.628337236534', 'calinski_harabaz_score: 2.14648377499']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: elkan tol: 0.001
+[1 3 1 1 6 5 2 4 0 0 5 0 0 6 1 2 6 3 2 0 2 0 0 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.471900284277', 'calinski_harabaz_score: 2.17537527796']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.441723157665', 'calinski_harabaz_score: 2.17537527796']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: elkan tol: 0.01
+[5 0 5 5 6 2 2 0 3 6 2 3 6 1 5 2 6 3 2 6 2 1 3 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.816915422886', 'calinski_harabaz_score: 2.19207503767']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.816915422886', 'calinski_harabaz_score: 2.19207503767']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: elkan tol: 0.1
+[1 0 1 1 4 6 3 0 2 4 3 2 5 4 1 3 4 2 3 5 3 5 2 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.886885245902', 'calinski_harabaz_score: 2.25484933606']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.82224824356', 'calinski_harabaz_score: 2.25484933606']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: full tol: 0.0001
+[1 2 1 1 7 0 4 2 3 7 0 3 5 6 1 4 6 3 4 5 4 5 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: full tol: 0.001
+[1 7 1 1 3 0 2 7 5 3 0 5 6 6 1 2 3 5 2 6 2 6 5 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.71753869771', 'calinski_harabaz_score: 2.31893834934']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.66919000757', 'calinski_harabaz_score: 2.31893834934']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: full tol: 0.01
+[4 2 4 4 3 7 0 2 6 3 7 5 1 3 4 0 3 6 0 1 0 1 5 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.36588287283']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.36588287283']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: full tol: 0.1
+[1 4 1 1 3 2 2 4 7 3 2 0 6 5 1 2 5 7 2 6 2 6 0 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.793593418921', 'calinski_harabaz_score: 2.26384370052']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.813284132841', 'calinski_harabaz_score: 2.26384370052']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001
+[1 3 1 1 5 7 2 3 0 5 7 4 7 7 1 2 5 0 2 4 2 6 4 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.552761213378', 'calinski_harabaz_score: 2.26594208402']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.611963190184', 'calinski_harabaz_score: 2.26594208402']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.001
+[3 4 3 3 0 5 2 4 1 0 5 1 5 7 3 2 7 1 2 1 2 6 1 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.634090909091', 'calinski_harabaz_score: 2.31113558593']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.690582959641', 'calinski_harabaz_score: 2.31113558593']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.01
+[3 1 3 3 4 7 0 1 6 4 7 6 2 5 3 0 5 6 0 2 0 2 6 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.1
+[1 4 1 1 2 0 5 4 3 2 0 7 6 6 1 5 2 3 5 6 5 6 7 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.601103665747', 'calinski_harabaz_score: 2.35056100915']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.624708624709', 'calinski_harabaz_score: 2.35056100915']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: full tol: 0.0001
+[2 7 2 2 3 6 5 7 0 4 6 0 1 3 2 5 3 0 5 4 5 1 0 7]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.28820326511']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.767676767677', 'calinski_harabaz_score: 2.28820326511']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: full tol: 0.001
+[3 7 3 3 2 1 4 0 7 2 1 7 0 6 3 4 6 7 4 0 4 5 0 7]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.518384644148', 'calinski_harabaz_score: 2.16170321462']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.507749077491', 'calinski_harabaz_score: 2.16170321462']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: full tol: 0.01
+[3 5 3 2 4 1 0 5 7 4 1 7 1 6 2 0 6 7 0 1 0 4 7 5]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.564840362633', 'calinski_harabaz_score: 2.06399331712']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.588966588967', 'calinski_harabaz_score: 2.06399331712']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: full tol: 0.1
+[5 6 5 5 0 2 2 6 3 0 2 7 5 1 5 2 1 3 2 4 2 4 7 6]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.731680641633', 'calinski_harabaz_score: 2.14827590477']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.784737221022', 'calinski_harabaz_score: 2.14827590477']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: elkan tol: 0.0001
+[0 1 0 0 6 3 3 1 7 6 3 4 5 2 0 3 2 7 3 5 3 5 4 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.793593418921', 'calinski_harabaz_score: 2.26384370052']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.813284132841', 'calinski_harabaz_score: 2.26384370052']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: elkan tol: 0.001
+[2 1 2 2 0 3 4 1 5 3 3 5 6 0 2 4 0 7 4 6 4 6 5 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.637366968861', 'calinski_harabaz_score: 2.24350963532']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.660450660451', 'calinski_harabaz_score: 2.24350963532']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: elkan tol: 0.01
+[4 5 4 4 3 1 1 5 6 3 1 7 5 3 4 1 3 6 1 0 1 2 7 5]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.836395969176', 'calinski_harabaz_score: 2.16568169836']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.886858749122', 'calinski_harabaz_score: 2.16568169836']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: elkan tol: 0.1
+[7 1 7 7 4 5 2 1 3 4 5 3 6 4 7 2 4 3 2 6 2 6 3 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.823461686069', 'calinski_harabaz_score: 2.33405157338']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.773656320969', 'calinski_harabaz_score: 2.33405157338']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.0001
+[1 3 1 1 6 0 2 3 4 6 0 4 5 7 1 2 7 4 2 5 2 5 4 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.001
+[1 5 1 1 4 2 3 5 6 4 2 6 0 7 1 3 7 6 3 0 3 0 6 5]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.01
+[0 6 0 0 2 5 3 6 1 2 5 1 4 7 0 3 7 1 3 4 3 4 1 6]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.1
+[1 3 1 1 6 0 2 3 4 6 0 5 7 6 1 2 6 4 2 7 2 7 5 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.36588287283']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.36588287283']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.0001
+[6 3 6 6 2 7 1 3 0 2 7 4 6 5 6 1 5 0 1 4 1 5 4 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.516982110449', 'calinski_harabaz_score: 2.24254999108']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.576687116564', 'calinski_harabaz_score: 2.24254999108']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.001
+[1 2 1 1 5 0 4 2 6 5 0 6 0 3 1 4 3 6 4 7 4 7 6 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.673630271975', 'calinski_harabaz_score: 2.3361290003']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3361290003']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.01
+[2 3 2 2 6 0 1 3 5 6 0 5 7 4 2 1 4 5 1 7 1 7 5 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.1
+[2 6 2 2 4 1 3 6 7 4 1 5 0 0 2 3 4 7 3 0 3 0 5 6]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.601103665747', 'calinski_harabaz_score: 2.35056100915']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.624708624709', 'calinski_harabaz_score: 2.35056100915']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.0001
+[2 4 2 2 5 1 0 4 6 5 1 6 1 5 2 0 5 6 0 6 0 3 6 7]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.745262121585', 'calinski_harabaz_score: 2.26728432963']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731778425656', 'calinski_harabaz_score: 2.26728432963']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.001
+[1 4 1 1 6 7 5 4 3 6 7 3 5 0 1 5 0 3 5 3 5 2 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.621587934688', 'calinski_harabaz_score: 2.20828552746']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.609594095941', 'calinski_harabaz_score: 2.20828552746']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.01
+[3 4 3 3 0 7 7 4 1 0 7 1 6 2 3 7 2 1 7 6 7 5 1 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.899380240612', 'calinski_harabaz_score: 2.22816385013']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.91720662347', 'calinski_harabaz_score: 2.22816385013']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.1
+[7 2 7 7 1 0 0 2 4 1 0 4 3 1 7 0 1 4 0 3 0 5 4 6]
+@@@metric results for labels8_1
+['adjusted_rand_score: 1.0', 'calinski_harabaz_score: 2.18587402942']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.951510892481', 'calinski_harabaz_score: 2.18587402942']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: elkan tol: 0.0001
+[4 3 4 4 6 5 2 3 7 0 5 7 5 1 4 2 1 7 2 0 2 6 7 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.637366968861', 'calinski_harabaz_score: 2.24472127396']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.696192696193', 'calinski_harabaz_score: 2.24472127396']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: elkan tol: 0.001
+[6 5 1 1 0 3 2 5 4 0 3 7 5 0 1 2 0 4 2 5 2 5 7 5]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.530441122858', 'calinski_harabaz_score: 2.08957792377']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.552915766739', 'calinski_harabaz_score: 2.08957792377']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: elkan tol: 0.01
+[2 5 2 2 1 3 0 6 7 1 3 7 7 1 2 0 1 5 0 7 0 4 6 5]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.611615709351', 'calinski_harabaz_score: 2.1152812924']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.599545798637', 'calinski_harabaz_score: 2.1152812924']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: elkan tol: 0.1
+[7 0 7 7 4 5 1 0 2 4 5 6 0 3 7 1 3 2 1 0 1 0 6 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.507506768398', 'calinski_harabaz_score: 2.32136600102']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.530612244898', 'calinski_harabaz_score: 2.32136600102']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: full tol: 0.0001
+[1 5 1 1 0 2 3 5 4 0 2 4 7 6 1 3 6 4 3 7 3 7 4 5]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: full tol: 0.001
+[6 3 6 6 7 1 2 3 5 7 1 5 1 0 6 2 0 4 2 7 2 5 5 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.552761213378', 'calinski_harabaz_score: 2.25610549189']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.611963190184', 'calinski_harabaz_score: 2.25610549189']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: full tol: 0.01
+[0 2 0 0 6 1 3 2 4 6 1 4 7 5 0 3 5 4 3 7 3 7 4 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: full tol: 0.1
+[1 3 1 1 5 0 2 3 4 5 0 4 6 7 1 2 7 4 2 6 2 6 4 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.0001
+[3 4 3 3 0 7 2 4 5 0 7 5 1 6 3 2 6 5 2 1 2 1 5 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.001
+[2 3 2 2 5 7 1 3 6 5 7 4 7 0 2 1 0 6 1 4 1 0 4 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.540490143847', 'calinski_harabaz_score: 2.32037005494']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.60157480315', 'calinski_harabaz_score: 2.32037005494']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.01
+[2 3 2 2 0 6 1 3 5 0 6 5 4 4 2 1 4 5 1 0 1 4 5 7]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.646923372138', 'calinski_harabaz_score: 2.30350127683']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.634367903104', 'calinski_harabaz_score: 2.30350127683']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.1
+[0 4 0 0 5 6 1 4 3 5 6 3 2 7 0 1 7 3 1 2 1 2 3 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.709893575089', 'calinski_harabaz_score: 2.3792047466']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731934731935', 'calinski_harabaz_score: 2.3792047466']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: full tol: 0.0001
+[5 4 5 5 7 3 6 4 1 1 3 1 0 7 5 6 7 1 6 0 6 2 1 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.703787878788', 'calinski_harabaz_score: 2.27086401163']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.724962630792', 'calinski_harabaz_score: 2.27086401163']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: full tol: 0.001
+[7 3 7 7 5 1 2 3 6 5 1 6 1 4 7 2 4 0 2 5 2 2 6 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.541000383779', 'calinski_harabaz_score: 2.13336412257']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.599545798637', 'calinski_harabaz_score: 2.13336412257']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: full tol: 0.01
+[5 7 5 5 0 3 4 7 2 0 3 2 7 0 5 1 0 2 4 7 1 6 2 7]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.655989031534', 'calinski_harabaz_score: 2.16068760617']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.677490774908', 'calinski_harabaz_score: 2.16068760617']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: full tol: 0.1
+[3 1 3 3 5 4 6 1 0 5 4 0 3 2 3 6 5 0 6 7 6 7 0 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.668939393939', 'calinski_harabaz_score: 2.18907082948']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.724962630792', 'calinski_harabaz_score: 2.18907082948']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: elkan tol: 0.0001
+[3 1 3 3 7 6 4 1 7 5 6 5 2 2 3 0 6 7 4 5 0 2 5 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.319925412893', 'calinski_harabaz_score: 2.05772595406']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.384251968504', 'calinski_harabaz_score: 2.05772595406']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: elkan tol: 0.001
+[0 6 0 0 7 1 5 6 2 0 1 4 3 7 0 5 7 2 5 3 5 3 4 6]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.588540316308', 'calinski_harabaz_score: 2.18970395165']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.611963190184', 'calinski_harabaz_score: 2.18970395165']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: elkan tol: 0.01
+[2 1 2 2 5 0 6 1 7 5 0 3 4 4 2 6 5 7 6 4 6 4 3 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.601103665747', 'calinski_harabaz_score: 2.35056100915']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.624708624709', 'calinski_harabaz_score: 2.35056100915']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: elkan tol: 0.1
+[0 1 0 0 7 5 6 1 4 7 5 1 3 3 0 6 3 2 6 1 6 3 1 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.449582450455', 'calinski_harabaz_score: 2.15822056488']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.439852398524', 'calinski_harabaz_score: 2.15822056488']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: full tol: 0.0001
+[4 2 4 4 5 8 0 2 6 5 8 3 1 7 4 0 7 6 0 1 0 1 3 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: full tol: 0.001
+[4 0 4 4 5 2 3 0 6 5 2 1 8 7 4 3 7 6 3 8 3 8 1 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: full tol: 0.01
+[2 5 2 2 0 8 1 5 6 0 8 3 7 4 2 1 4 6 1 7 1 7 3 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: full tol: 0.1
+[3 5 3 3 1 7 2 5 0 1 7 6 7 4 3 2 4 0 2 8 2 8 6 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.33110311501']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001
+[1 4 1 1 8 0 2 4 3 8 0 7 6 5 1 2 5 3 2 6 2 6 7 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.001
+[0 1 0 0 3 7 2 1 8 3 7 4 5 6 0 2 6 8 2 5 2 5 4 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.01
+[1 3 1 1 4 8 2 3 5 4 8 5 6 0 1 2 0 5 2 6 2 6 5 7]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.716127262754', 'calinski_harabaz_score: 2.34227474634']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.1
+[0 2 0 0 5 3 4 2 6 5 3 7 1 8 0 4 8 6 4 1 4 1 7 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: full tol: 0.0001
+[7 1 7 7 3 6 6 1 8 3 6 5 4 3 7 2 3 8 6 0 2 4 5 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.716127262754', 'calinski_harabaz_score: 2.11980100819']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: full tol: 0.001
+[8 7 8 8 5 6 2 7 4 5 6 1 0 0 8 3 5 4 2 0 3 0 1 7]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.474025974026', 'calinski_harabaz_score: 2.20931555713']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: full tol: 0.01
+[7 5 7 7 8 2 3 5 0 8 2 6 4 8 7 3 8 0 3 4 3 1 6 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.716127262754', 'calinski_harabaz_score: 2.32349424804']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: full tol: 0.1
+[3 0 3 3 5 7 6 0 1 5 7 8 0 2 3 6 2 1 6 0 6 0 4 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.459575543204', 'calinski_harabaz_score: 2.17908333564']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: elkan tol: 0.0001
+[5 8 5 5 4 0 7 8 6 4 0 6 3 2 5 7 2 6 7 3 7 1 6 8]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.716127262754', 'calinski_harabaz_score: 2.33672832605']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: elkan tol: 0.001
+[6 7 6 6 2 0 1 7 8 2 0 8 4 2 6 3 2 5 1 4 1 4 8 7]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.640427866155', 'calinski_harabaz_score: 2.14990001186']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: elkan tol: 0.01
+[2 5 2 2 6 8 4 5 1 6 8 0 3 3 2 4 6 1 4 3 4 7 0 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.616026711185', 'calinski_harabaz_score: 2.30778341191']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: elkan tol: 0.1
+[6 7 6 6 8 3 1 7 4 8 3 4 7 5 6 1 0 4 1 7 1 2 4 7]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.611367127496', 'calinski_harabaz_score: 2.18836841644']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: full tol: 0.0001
+[1 3 1 1 2 0 6 3 8 2 0 4 5 7 1 6 7 8 6 5 6 5 4 3]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: full tol: 0.001
+[3 5 3 3 4 2 1 5 0 4 2 0 7 6 3 1 6 0 1 8 1 7 0 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.716127262754', 'calinski_harabaz_score: 2.31444909972']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: full tol: 0.01
+[1 5 1 1 6 2 3 5 0 6 2 7 8 4 1 3 4 0 3 8 3 8 7 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: full tol: 0.1
+[1 4 1 1 5 6 2 4 3 5 6 7 0 8 1 2 8 3 2 0 2 0 7 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.0001
+[1 6 1 1 0 8 3 6 4 0 8 7 2 5 1 3 5 4 3 2 3 2 7 6]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.001
+[1 4 1 1 2 8 0 4 6 2 8 5 3 7 1 0 7 6 0 3 0 3 5 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.01
+[1 4 1 1 3 8 2 4 7 3 8 5 0 6 1 2 6 7 2 0 2 0 5 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.1
+[2 5 2 2 0 8 1 5 4 0 8 3 7 6 2 1 6 4 1 7 1 7 3 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: full tol: 0.0001
+[5 4 5 5 3 2 7 4 0 3 8 0 4 6 5 7 3 0 7 4 7 1 0 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.633906013138', 'calinski_harabaz_score: 2.07254956719']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: full tol: 0.001
+[5 0 5 5 6 1 4 0 8 6 1 3 1 2 5 4 2 7 4 3 4 0 3 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.514872904273', 'calinski_harabaz_score: 2.20017053068']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: full tol: 0.01
+[5 4 5 5 7 3 6 4 8 7 3 8 4 1 5 0 1 8 6 2 0 4 8 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.54', 'calinski_harabaz_score: 2.15564909128']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: full tol: 0.1
+[1 2 1 1 6 5 0 2 6 6 5 3 3 7 1 4 7 3 0 3 4 8 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.375479978058', 'calinski_harabaz_score: 2.05245092082']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: elkan tol: 0.0001
+[8 1 2 8 4 4 0 1 6 4 4 6 7 7 2 5 4 6 0 7 5 3 6 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.440237966468', 'calinski_harabaz_score: 1.93368895627']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: elkan tol: 0.001
+[4 8 4 4 2 0 1 8 5 0 0 7 0 2 4 3 2 5 1 7 3 6 7 8]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.462437395659', 'calinski_harabaz_score: 2.10688770161']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: elkan tol: 0.01
+[2 6 2 2 1 4 3 6 8 1 4 8 4 5 2 3 0 6 3 8 3 7 8 6]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.528143082588', 'calinski_harabaz_score: 2.14176208839']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: elkan tol: 0.1
+[5 6 5 5 3 7 4 6 8 3 7 8 1 0 5 4 0 8 4 1 4 2 8 6]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.716127262754', 'calinski_harabaz_score: 2.33672832605']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: full tol: 0.0001
+[0 3 0 0 5 7 1 3 4 5 7 2 8 6 0 1 6 4 1 8 1 8 2 3]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: full tol: 0.001
+[1 6 1 1 2 0 5 6 4 2 0 4 3 7 1 5 7 4 5 3 5 8 4 6]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.716127262754', 'calinski_harabaz_score: 2.33672832605']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: full tol: 0.01
+[3 2 3 3 8 7 1 2 0 8 7 6 7 4 3 1 4 0 1 5 1 5 6 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.33110311501']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: full tol: 0.1
+[1 3 1 1 2 8 0 3 7 2 8 4 1 5 1 0 5 7 0 6 0 6 4 3]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.564728469556', 'calinski_harabaz_score: 2.25214830497']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.0001
+[3 4 3 3 6 8 1 4 5 6 8 0 2 7 3 1 7 5 1 2 1 2 0 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.001
+[1 2 1 1 4 0 3 2 5 4 0 7 8 6 1 3 6 5 3 8 3 8 7 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.01
+[0 6 0 0 2 3 4 6 7 2 3 1 5 8 0 4 8 7 4 5 4 5 1 6]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.1
+[2 4 2 2 5 6 1 4 7 5 6 3 0 8 2 1 8 7 1 0 1 0 3 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.590909090909', 'calinski_harabaz_score: 2.37463684603']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: full tol: 0.0001
+[6 7 6 6 3 8 8 7 5 3 8 1 7 0 6 4 0 5 8 2 4 7 1 7]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.54', 'calinski_harabaz_score: 2.10794128858']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: full tol: 0.001
+[7 6 7 7 8 0 1 6 2 8 3 2 7 4 7 1 4 2 1 2 1 5 2 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.611367127496', 'calinski_harabaz_score: 2.07324547165']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: full tol: 0.01
+[3 5 3 3 8 2 2 5 1 8 2 0 6 4 3 2 4 1 2 7 2 6 0 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.803061754022', 'calinski_harabaz_score: 2.20129024101']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: full tol: 0.1
+[7 4 7 7 1 3 3 4 0 1 3 2 6 5 7 3 5 0 3 6 3 6 8 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.752688172043', 'calinski_harabaz_score: 2.12483373537']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: elkan tol: 0.0001
+[6 5 6 6 7 4 1 8 8 7 4 3 6 2 6 1 2 5 1 3 1 0 3 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.47755543537', 'calinski_harabaz_score: 2.0594454547']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: elkan tol: 0.001
+[0 4 0 0 8 5 3 4 6 8 5 6 5 1 0 3 1 6 3 7 3 2 6 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.701460248783', 'calinski_harabaz_score: 2.28763334047']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: elkan tol: 0.01
+[6 7 6 6 8 3 1 7 5 8 3 2 6 0 6 1 8 5 1 4 1 4 2 7]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.589507842077', 'calinski_harabaz_score: 2.18314792012']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: elkan tol: 0.1
+[7 8 7 7 2 5 3 8 0 2 1 0 4 4 7 3 2 0 3 4 3 4 6 8]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.5768', 'calinski_harabaz_score: 2.10350284033']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 7 threshold: 0.1 branching_factor:5
+[5 3 5 5 0 6 4 3 1 0 6 1 2 0 5 4 0 1 4 2 4 2 1 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.751739026145', 'calinski_harabaz_score: 2.41337604648']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.817941952507', 'calinski_harabaz_score: 2.41337604648']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 7 threshold: 0.1 branching_factor:20
+[5 3 5 5 0 6 4 3 1 0 6 1 2 0 5 4 0 1 4 2 4 2 1 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.751739026145', 'calinski_harabaz_score: 2.41337604648']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.817941952507', 'calinski_harabaz_score: 2.41337604648']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 7 threshold: 0.1 branching_factor:50
+[5 3 5 5 0 6 4 3 1 0 6 1 2 0 5 4 0 1 4 2 4 2 1 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.751739026145', 'calinski_harabaz_score: 2.41337604648']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.817941952507', 'calinski_harabaz_score: 2.41337604648']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 7 threshold: 0.5 branching_factor:5
+[3 4 3 3 6 2 2 4 0 6 2 0 5 1 3 2 1 0 2 5 2 5 0 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.826355525051', 'calinski_harabaz_score: 2.30844115172']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.889498970487', 'calinski_harabaz_score: 2.30844115172']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 7 threshold: 0.5 branching_factor:20
+[3 4 3 3 6 2 2 4 0 6 2 0 5 1 3 2 1 0 2 5 2 5 0 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.826355525051', 'calinski_harabaz_score: 2.30844115172']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.889498970487', 'calinski_harabaz_score: 2.30844115172']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 7 threshold: 0.5 branching_factor:50
+[3 4 3 3 6 2 2 4 0 6 2 0 5 1 3 2 1 0 2 5 2 5 0 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.826355525051', 'calinski_harabaz_score: 2.30844115172']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.889498970487', 'calinski_harabaz_score: 2.30844115172']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 7 threshold: 1.0 branching_factor:5
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+@@@metric results for labels7_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 7 threshold: 1.0 branching_factor:20
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+@@@metric results for labels7_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 7 threshold: 1.0 branching_factor:50
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+@@@metric results for labels7_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 8 threshold: 0.1 branching_factor:5
+[5 7 5 5 3 6 4 7 0 3 6 0 2 1 5 4 1 0 4 2 4 2 0 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.695877625097', 'calinski_harabaz_score: 2.38041328454']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.647239263804', 'calinski_harabaz_score: 2.38041328454']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 8 threshold: 0.1 branching_factor:20
+[5 7 5 5 3 6 4 7 0 3 6 0 2 1 5 4 1 0 4 2 4 2 0 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.695877625097', 'calinski_harabaz_score: 2.38041328454']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.647239263804', 'calinski_harabaz_score: 2.38041328454']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 8 threshold: 0.1 branching_factor:50
+[5 7 5 5 3 6 4 7 0 3 6 0 2 1 5 4 1 0 4 2 4 2 0 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.695877625097', 'calinski_harabaz_score: 2.38041328454']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.647239263804', 'calinski_harabaz_score: 2.38041328454']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 8 threshold: 0.5 branching_factor:5
+[7 4 7 7 6 0 0 4 5 6 0 3 2 1 7 0 1 5 0 2 0 2 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.77922717204', 'calinski_harabaz_score: 2.26499319714']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731778425656', 'calinski_harabaz_score: 2.26499319714']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 8 threshold: 0.5 branching_factor:20
+[7 4 7 7 6 0 0 4 5 6 0 3 2 1 7 0 1 5 0 2 0 2 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.77922717204', 'calinski_harabaz_score: 2.26499319714']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731778425656', 'calinski_harabaz_score: 2.26499319714']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 8 threshold: 0.5 branching_factor:50
+[7 4 7 7 6 0 0 4 5 6 0 3 2 1 7 0 1 5 0 2 0 2 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.77922717204', 'calinski_harabaz_score: 2.26499319714']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.731778425656', 'calinski_harabaz_score: 2.26499319714']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 8 threshold: 1.0 branching_factor:5
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+@@@metric results for labels8_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 8 threshold: 1.0 branching_factor:20
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+@@@metric results for labels8_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 8 threshold: 1.0 branching_factor:50
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+@@@metric results for labels8_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 9 threshold: 0.1 branching_factor:5
+[5 7 5 5 3 6 4 7 2 3 6 8 0 1 5 4 1 2 4 0 4 0 8 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.577629382304', 'calinski_harabaz_score: 2.37585951478']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 9 threshold: 0.1 branching_factor:20
+[5 7 5 5 3 6 4 7 2 3 6 8 0 1 5 4 1 2 4 0 4 0 8 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.577629382304', 'calinski_harabaz_score: 2.37585951478']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 9 threshold: 0.1 branching_factor:50
+[5 7 5 5 3 6 4 7 2 3 6 8 0 1 5 4 1 2 4 0 4 0 8 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.577629382304', 'calinski_harabaz_score: 2.37585951478']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 9 threshold: 0.5 branching_factor:5
+[7 4 7 7 6 5 8 4 2 6 5 3 0 1 7 8 1 2 8 0 8 0 3 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.577629382304', 'calinski_harabaz_score: 2.37585951478']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 9 threshold: 0.5 branching_factor:20
+[7 4 7 7 6 5 8 4 2 6 5 3 0 1 7 8 1 2 8 0 8 0 3 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.577629382304', 'calinski_harabaz_score: 2.37585951478']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 9 threshold: 0.5 branching_factor:50
+[7 4 7 7 6 5 8 4 2 6 5 3 0 1 7 8 1 2 8 0 8 0 3 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.577629382304', 'calinski_harabaz_score: 2.37585951478']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 9 threshold: 1.0 branching_factor:5
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+@@@metric results for labels9_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 9 threshold: 1.0 branching_factor:20
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+@@@metric results for labels9_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+Birch with n_clusters: 9 threshold: 1.0 branching_factor:50
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+@@@metric results for labels9_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+MeanShift with bin_seeding: True cluster_all: True
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+MeanShift with bin_seeding: True cluster_all: False
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+MeanShift with bin_seeding: False cluster_all: True
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+MeanShift with bin_seeding: False cluster_all: False
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 3 3 4 5 1 2 5 3 5 3 2 0]
+['calinski_harabaz_score: 2.37053286772']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 3 3 4 5 1 2 5 3 5 3 2 0]
+['calinski_harabaz_score: 2.37053286772']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 3 3 4 5 1 2 5 3 5 3 2 0]
+['calinski_harabaz_score: 2.37053286772']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 4 3 4 5 3 2 5 2 5 3 2 0]
+['calinski_harabaz_score: 2.25393202372']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 100 affinity: euclidean
+@@@metric results for labels24_1
+Caught error: Input contains NaN, infinity or a value too large for dtype('float64').
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 200 affinity: euclidean
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 500 affinity: euclidean
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 100 affinity: euclidean
+@@@metric results for labels24_1
+Caught error: Input contains NaN, infinity or a value too large for dtype('float64').
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 200 affinity: euclidean
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 500 affinity: euclidean
+@@@metric results for labels3_1
+[1 0 1 1 2 2 2 0 2 2 2 2 1 2 1 2 2 0 2 2 2 2 0 0]
+['calinski_harabaz_score: 2.14558681499']
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 100 affinity: euclidean
+@@@metric results for labels24_1
+Caught error: Input contains NaN, infinity or a value too large for dtype('float64').
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 200 affinity: euclidean
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[4 0 4 4 1 5 5 0 2 1 5 2 3 3 4 5 1 2 5 3 5 3 2 0]
+['calinski_harabaz_score: 2.37053286772']
+##############################################################################
+#################  Just finished TfidVec  ####################################
+###############################################################################
+############################################################################################
+################# Final reults are      AggloClu_metrics####################################
+############################################################################################
+{'labels7_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1,
+       2]),
+                                       'val': 1.0,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                          'val': 2.4133760464814982,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1,
+       2]),
+                                       'val': 0.93757774510912595,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                          'val': 2.4133760464814982,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: euclidean linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([6, 2, 6, 6, 3, 5, 5, 2, 0, 3, 5, 0, 1, 4, 6, 5, 4, 0, 5, 1, 5, 7, 0,
+       2]),
+                                       'val': 0.89938024061246813,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                          'val': 2.3804132845447152,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: euclidean linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([6, 2, 6, 6, 3, 5, 5, 2, 0, 3, 5, 0, 1, 4, 6, 5, 4, 0, 5, 1, 5, 7, 0,
+       2]),
+                                       'val': 0.91720662347012238,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                          'val': 2.3804132845447152,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 9 affinity: euclidean linkage: complete',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 0, 7, 7, 6, 5, 5, 0, 1, 6, 5, 3, 2, 4, 7, 5, 4, 1, 5, 2, 5, 8, 3,
+       0]),
+                                       'val': 0.80306175402179558,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 9 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 2, 3, 6, 8, 0, 1, 5, 4, 1, 2, 4, 0, 4, 0, 8,
+       0]),
+                                          'val': 2.3758595147799531,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'summary': {'labels7_1': {'adjusted_rand_score': {'res_label': array([6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1,
+       2]),
+                                                   'val': 1.0},
+                           'calinski_harabaz_score': {'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                                      'val': 2.4133760464814982}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': array([6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1,
+       2]),
+                                                   'val': 0.93757774510912595},
+                           'calinski_harabaz_score': {'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                                      'val': 2.4133760464814982}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': array([6, 2, 6, 6, 3, 5, 5, 2, 0, 3, 5, 0, 1, 4, 6, 5, 4, 0, 5, 1, 5, 7, 0,
+       2]),
+                                                   'val': 0.89938024061246813},
+                           'calinski_harabaz_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                                      'val': 2.3804132845447152}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': array([6, 2, 6, 6, 3, 5, 5, 2, 0, 3, 5, 0, 1, 4, 6, 5, 4, 0, 5, 1, 5, 7, 0,
+       2]),
+                                                   'val': 0.91720662347012238},
+                           'calinski_harabaz_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                                      'val': 2.3804132845447152}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': array([7, 0, 7, 7, 6, 5, 5, 0, 1, 6, 5, 3, 2, 4, 7, 5, 4, 1, 5, 2, 5, 8, 3,
+       0]),
+                                                   'val': 0.80306175402179558},
+                           'calinski_harabaz_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 2, 3, 6, 8, 0, 1, 5, 4, 1, 2, 4, 0, 4, 0, 8,
+       0]),
+                                                      'val': 2.3758595147799531}}}}
+############################################################################################
+################# Final reults are      KMeans_metrics####################################
+############################################################################################
+{'labels7_1': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.1',
+                                       'other_metrics': [],
+                                       'res_label': array([2, 3, 2, 2, 1, 6, 6, 3, 5, 4, 6, 5, 4, 1, 2, 6, 1, 5, 6, 4, 6, 0, 5,
+       3], dtype=int32),
+                                       'val': 0.92107069320521617,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.01',
+                                          'other_metrics': [],
+                                          'res_label': array([4, 6, 4, 4, 3, 5, 0, 6, 2, 3, 5, 2, 1, 3, 4, 0, 3, 2, 0, 1, 0, 1, 2,
+       6], dtype=int32),
+                                          'val': 2.4121433509764287,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.1',
+                                       'other_metrics': [],
+                                       'res_label': array([2, 3, 2, 2, 1, 6, 6, 3, 5, 4, 6, 5, 4, 1, 2, 6, 1, 5, 6, 4, 6, 0, 5,
+       3], dtype=int32),
+                                       'val': 0.85792724776938911,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.01',
+                                          'other_metrics': [],
+                                          'res_label': array([4, 6, 4, 4, 3, 5, 0, 6, 2, 3, 5, 2, 1, 3, 4, 0, 3, 2, 0, 1, 0, 1, 2,
+       6], dtype=int32),
+                                          'val': 2.4121433509764287,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.1',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 2, 7, 7, 1, 0, 0, 2, 4, 1, 0, 4, 3, 1, 7, 0, 1, 4, 0, 3, 0, 5, 4,
+       6], dtype=int32),
+                                       'val': 1.0,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.001',
+                                          'other_metrics': [],
+                                          'res_label': array([1, 5, 1, 1, 4, 2, 3, 5, 6, 4, 2, 6, 0, 7, 1, 3, 7, 6, 3, 0, 3, 0, 6,
+       5], dtype=int32),
+                                          'val': 2.379204746603985,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.1',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 2, 7, 7, 1, 0, 0, 2, 4, 1, 0, 4, 3, 1, 7, 0, 1, 4, 0, 3, 0, 5, 4,
+       6], dtype=int32),
+                                       'val': 0.95151089248067466,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.001',
+                                          'other_metrics': [],
+                                          'res_label': array([1, 5, 1, 1, 4, 2, 3, 5, 6, 4, 2, 6, 0, 7, 1, 3, 7, 6, 3, 0, 3, 0, 6,
+       5], dtype=int32),
+                                          'val': 2.379204746603985,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: full tol: 0.01',
+                                       'other_metrics': [],
+                                       'res_label': array([3, 5, 3, 3, 8, 2, 2, 5, 1, 8, 2, 0, 6, 4, 3, 2, 4, 1, 2, 7, 2, 6, 0,
+       5], dtype=int32),
+                                       'val': 0.80306175402179558,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001',
+                                          'other_metrics': [],
+                                          'res_label': array([1, 4, 1, 1, 8, 0, 2, 4, 3, 8, 0, 7, 6, 5, 1, 2, 5, 3, 2, 6, 2, 6, 7,
+       4], dtype=int32),
+                                          'val': 2.3746368460288849,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'summary': {'labels7_1': {'adjusted_rand_score': {'res_label': array([2, 3, 2, 2, 1, 6, 6, 3, 5, 4, 6, 5, 4, 1, 2, 6, 1, 5, 6, 4, 6, 0, 5,
+       3], dtype=int32),
+                                                   'val': 0.92107069320521617},
+                           'calinski_harabaz_score': {'res_label': array([4, 6, 4, 4, 3, 5, 0, 6, 2, 3, 5, 2, 1, 3, 4, 0, 3, 2, 0, 1, 0, 1, 2,
+       6], dtype=int32),
+                                                      'val': 2.4121433509764287}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': array([2, 3, 2, 2, 1, 6, 6, 3, 5, 4, 6, 5, 4, 1, 2, 6, 1, 5, 6, 4, 6, 0, 5,
+       3], dtype=int32),
+                                                   'val': 0.85792724776938911},
+                           'calinski_harabaz_score': {'res_label': array([4, 6, 4, 4, 3, 5, 0, 6, 2, 3, 5, 2, 1, 3, 4, 0, 3, 2, 0, 1, 0, 1, 2,
+       6], dtype=int32),
+                                                      'val': 2.4121433509764287}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': array([7, 2, 7, 7, 1, 0, 0, 2, 4, 1, 0, 4, 3, 1, 7, 0, 1, 4, 0, 3, 0, 5, 4,
+       6], dtype=int32),
+                                                   'val': 1.0},
+                           'calinski_harabaz_score': {'res_label': array([1, 5, 1, 1, 4, 2, 3, 5, 6, 4, 2, 6, 0, 7, 1, 3, 7, 6, 3, 0, 3, 0, 6,
+       5], dtype=int32),
+                                                      'val': 2.379204746603985}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': array([7, 2, 7, 7, 1, 0, 0, 2, 4, 1, 0, 4, 3, 1, 7, 0, 1, 4, 0, 3, 0, 5, 4,
+       6], dtype=int32),
+                                                   'val': 0.95151089248067466},
+                           'calinski_harabaz_score': {'res_label': array([1, 5, 1, 1, 4, 2, 3, 5, 6, 4, 2, 6, 0, 7, 1, 3, 7, 6, 3, 0, 3, 0, 6,
+       5], dtype=int32),
+                                                      'val': 2.379204746603985}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': array([3, 5, 3, 3, 8, 2, 2, 5, 1, 8, 2, 0, 6, 4, 3, 2, 4, 1, 2, 7, 2, 6, 0,
+       5], dtype=int32),
+                                                   'val': 0.80306175402179558},
+                           'calinski_harabaz_score': {'res_label': array([1, 4, 1, 1, 8, 0, 2, 4, 3, 8, 0, 7, 6, 5, 1, 2, 5, 3, 2, 6, 2, 6, 7,
+       4], dtype=int32),
+                                                      'val': 2.3746368460288849}}}}
+############################################################################################
+################# Final reults are       Birch_metrics####################################
+############################################################################################
+{'labels7_1': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 7 threshold: 0.5 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([3, 4, 3, 3, 6, 2, 2, 4, 0, 6, 2, 0, 5, 1, 3, 2, 1, 0, 2, 5, 2, 5, 0,
+       5]),
+                                       'val': 0.82635552505147569,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 7 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                          'val': 2.4133760464814982,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 7 threshold: 0.5 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([3, 4, 3, 3, 6, 2, 2, 4, 0, 6, 2, 0, 5, 1, 3, 2, 1, 0, 2, 5, 2, 5, 0,
+       5]),
+                                       'val': 0.88949897048730264,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 7 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                          'val': 2.4133760464814982,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 8 threshold: 0.5 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 4, 7, 7, 6, 0, 0, 4, 5, 6, 0, 3, 2, 1, 7, 0, 1, 5, 0, 2, 0, 2, 3,
+       2]),
+                                       'val': 0.77922717204036429,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 8 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                          'val': 2.3804132845447152,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 8 threshold: 0.5 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 4, 7, 7, 6, 0, 0, 4, 5, 6, 0, 3, 2, 1, 7, 0, 1, 5, 0, 2, 0, 2, 3,
+       2]),
+                                       'val': 0.73177842565597662,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 8 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                          'val': 2.3804132845447152,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 9 threshold: 0.1 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 2, 3, 6, 8, 0, 1, 5, 4, 1, 2, 4, 0, 4, 0, 8,
+       0]),
+                                       'val': 0.57762938230383976,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 9 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 2, 3, 6, 8, 0, 1, 5, 4, 1, 2, 4, 0, 4, 0, 8,
+       0]),
+                                          'val': 2.3758595147799531,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'summary': {'labels7_1': {'adjusted_rand_score': {'res_label': array([3, 4, 3, 3, 6, 2, 2, 4, 0, 6, 2, 0, 5, 1, 3, 2, 1, 0, 2, 5, 2, 5, 0,
+       5]),
+                                                   'val': 0.82635552505147569},
+                           'calinski_harabaz_score': {'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                                      'val': 2.4133760464814982}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': array([3, 4, 3, 3, 6, 2, 2, 4, 0, 6, 2, 0, 5, 1, 3, 2, 1, 0, 2, 5, 2, 5, 0,
+       5]),
+                                                   'val': 0.88949897048730264},
+                           'calinski_harabaz_score': {'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                                      'val': 2.4133760464814982}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': array([7, 4, 7, 7, 6, 0, 0, 4, 5, 6, 0, 3, 2, 1, 7, 0, 1, 5, 0, 2, 0, 2, 3,
+       2]),
+                                                   'val': 0.77922717204036429},
+                           'calinski_harabaz_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                                      'val': 2.3804132845447152}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': array([7, 4, 7, 7, 6, 0, 0, 4, 5, 6, 0, 3, 2, 1, 7, 0, 1, 5, 0, 2, 0, 2, 3,
+       2]),
+                                                   'val': 0.73177842565597662},
+                           'calinski_harabaz_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                                      'val': 2.3804132845447152}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 2, 3, 6, 8, 0, 1, 5, 4, 1, 2, 4, 0, 4, 0, 8,
+       0]),
+                                                   'val': 0.57762938230383976},
+                           'calinski_harabaz_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 2, 3, 6, 8, 0, 1, 5, 4, 1, 2, 4, 0, 4, 0, 8,
+       0]),
+                                                      'val': 2.3758595147799531}}}}
+############################################################################################
+################# Final reults are       MeanShift_metrics####################################
+############################################################################################
+{'labels7_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'summary': {'labels7_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}}}}
+############################################################################################
+################# Final reults are       AffinityPropagation####################################
+############################################################################################
+{'labels3_1': {'calinski_harabaz_score': {'cluster_cfg': 'AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 500 affinity: euclidean',
+                                          'other_metrics': [],
+                                          'res_label': array([1, 0, 1, 1, 2, 2, 2, 0, 2, 2, 2, 2, 1, 2, 1, 2, 2, 0, 2, 2, 2, 2, 0,
+       0]),
+                                          'val': 2.1455868149939641,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels6_1': {'calinski_harabaz_score': {'cluster_cfg': 'AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 100 affinity: euclidean',
+                                          'other_metrics': [],
+                                          'res_label': array([4, 0, 4, 4, 1, 5, 5, 0, 2, 1, 5, 2, 3, 3, 4, 5, 1, 2, 5, 3, 5, 3, 2,
+       0]),
+                                          'val': 2.3705328677212307,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels7_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'summary': {'labels3_1': {'calinski_harabaz_score': {'res_label': array([1, 0, 1, 1, 2, 2, 2, 0, 2, 2, 2, 2, 1, 2, 1, 2, 2, 0, 2, 2, 2, 2, 0,
+       0]),
+                                                      'val': 2.1455868149939641}},
+             'labels6_1': {'calinski_harabaz_score': {'res_label': array([4, 0, 4, 4, 1, 5, 5, 0, 2, 1, 5, 2, 3, 3, 4, 5, 1, 2, 5, 3, 5, 3, 2,
+       0]),
+                                                      'val': 2.3705328677212307}},
+             'labels7_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}}}}
+############################################################################################
+################# Final reults are    Common Metrics####################################
+############################################################################################
+{'labels7_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1,
+       2]),
+                                       'val': 1.0,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                          'val': 2.4133760464814982,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1,
+       2]),
+                                       'val': 0.93757774510912595,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                          'val': 2.4133760464814982,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.1',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 2, 7, 7, 1, 0, 0, 2, 4, 1, 0, 4, 3, 1, 7, 0, 1, 4, 0, 3, 0, 5, 4,
+       6], dtype=int32),
+                                       'val': 1.0,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                          'val': 2.3804132845447152,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.1',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 2, 7, 7, 1, 0, 0, 2, 4, 1, 0, 4, 3, 1, 7, 0, 1, 4, 0, 3, 0, 5, 4,
+       6], dtype=int32),
+                                       'val': 0.95151089248067466,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                          'val': 2.3804132845447152,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 9 affinity: euclidean linkage: complete',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 0, 7, 7, 6, 5, 5, 0, 1, 6, 5, 3, 2, 4, 7, 5, 4, 1, 5, 2, 5, 8, 3,
+       0]),
+                                       'val': 0.80306175402179558,
+                                       'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 9 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 2, 3, 6, 8, 0, 1, 5, 4, 1, 2, 4, 0, 4, 0, 8,
+       0]),
+                                          'val': 2.3758595147799531,
+                                          'vector_cfg': 'TfidfVe max_df: 0.5 min_df: 2 analyzer: word lowercase: True norm: l2 sublinear_tf:False'}},
+ 'summary': {'labels7_1': {'adjusted_rand_score': {'res_label': array([6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1,
+       2]),
+                                                   'val': 1.0},
+                           'calinski_harabaz_score': {'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                                      'val': 2.4133760464814982}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': array([6, 2, 6, 6, 0, 5, 5, 2, 1, 0, 5, 1, 4, 0, 6, 5, 0, 1, 5, 4, 5, 3, 1,
+       2]),
+                                                   'val': 0.93757774510912595},
+                           'calinski_harabaz_score': {'res_label': array([5, 3, 5, 5, 0, 6, 4, 3, 1, 0, 6, 1, 2, 0, 5, 4, 0, 1, 4, 2, 4, 2, 1,
+       2]),
+                                                      'val': 2.4133760464814982}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': array([7, 2, 7, 7, 1, 0, 0, 2, 4, 1, 0, 4, 3, 1, 7, 0, 1, 4, 0, 3, 0, 5, 4,
+       6], dtype=int32),
+                                                   'val': 1.0},
+                           'calinski_harabaz_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                                      'val': 2.3804132845447152}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': array([7, 2, 7, 7, 1, 0, 0, 2, 4, 1, 0, 4, 3, 1, 7, 0, 1, 4, 0, 3, 0, 5, 4,
+       6], dtype=int32),
+                                                   'val': 0.95151089248067466},
+                           'calinski_harabaz_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 0, 3, 6, 0, 2, 1, 5, 4, 1, 0, 4, 2, 4, 2, 0,
+       2]),
+                                                      'val': 2.3804132845447152}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': array([7, 0, 7, 7, 6, 5, 5, 0, 1, 6, 5, 3, 2, 4, 7, 5, 4, 1, 5, 2, 5, 8, 3,
+       0]),
+                                                   'val': 0.80306175402179558},
+                           'calinski_harabaz_score': {'res_label': array([5, 7, 5, 5, 3, 6, 4, 7, 2, 3, 6, 8, 0, 1, 5, 4, 1, 2, 4, 0, 4, 0, 8,
+       0]),
+                                                      'val': 2.3758595147799531}}}}

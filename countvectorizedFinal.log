@@ -1,0 +1,2661 @@
+['gap_ogsNAAAAIAAJ', 'gap_9ksIAAAAQAAJ', 'gap_y-AvAAAAYAAJ', 'gap_TgpMAAAAYAAJ', 'gap_pX5KAAAAYAAJ', 'gap_aLcWAAAAQAAJ', 'gap_GIt0HMhqjRgC', 'gap_fnAMAAAAYAAJ', 'gap_m_6B1DkImIoC', 'gap_MEoWAAAAYAAJ', 'gap_IlUMAQAAMAAJ', 'gap_DqQNAAAAYAAJ', 'gap_-C0BAAAAQAAJ', 'gap_WORMAAAAYAAJ', 'gap_CnnUAAAAMAAJ', 'gap_XmqHlMECi6kC', 'gap_2X5KAAAAYAAJ', 'gap_Bdw_AAAAYAAJ', 'gap_VPENAAAAQAAJ', 'gap_dIkBAAAAQAAJ', 'gap_CSEUAAAAYAAJ', 'gap_udEIAAAAQAAJ', 'gap_RqMNAAAAYAAJ', 'gap_DhULAAAAYAAJ']
+
+%%%%%%%%%%%%%%%%%%Starting new CountVec cycle%%%%%%%%%%%%%%%%%%%%%%%%
+n_samples: 24, n_features: 41553
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: euclidean linkage: ward
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: euclidean linkage: complete
+[2 0 2 5 0 0 0 0 0 0 0 0 3 4 2 1 0 0 0 6 1 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.126528079429', 'calinski_harabaz_score: 19.8584894253']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0922742786224', 'calinski_harabaz_score: 19.8584894253']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: euclidean linkage: average
+[2 0 2 5 0 0 0 0 0 0 0 0 3 4 2 1 0 0 0 6 1 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.126528079429', 'calinski_harabaz_score: 19.8584894253']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0922742786224', 'calinski_harabaz_score: 19.8584894253']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: l1 linkage: complete
+[5 5 5 4 5 0 0 5 5 5 5 5 3 1 5 2 5 5 0 6 2 5 5 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0751473782191', 'calinski_harabaz_score: 17.5833333483']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0408935774123', 'calinski_harabaz_score: 17.5833333483']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: l1 linkage: average
+[0 0 0 4 0 5 0 0 0 0 0 0 3 6 0 1 0 0 0 2 1 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.00923824103891', 'calinski_harabaz_score: 16.2560380383']
+@@@metric results for labels7_2
+['adjusted_rand_score: -0.0199018106952', 'calinski_harabaz_score: 16.2560380383']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: l2 linkage: complete
+[2 0 2 5 0 0 0 0 0 0 0 0 3 4 2 1 0 0 0 6 1 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.126528079429', 'calinski_harabaz_score: 19.8584894253']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0922742786224', 'calinski_harabaz_score: 19.8584894253']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: l2 linkage: average
+[2 0 2 5 0 0 0 0 0 0 0 0 3 4 2 1 0 0 0 6 1 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.126528079429', 'calinski_harabaz_score: 19.8584894253']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0922742786224', 'calinski_harabaz_score: 19.8584894253']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: manhattan linkage: complete
+[5 5 5 4 5 0 0 5 5 5 5 5 3 1 5 2 5 5 0 6 2 5 5 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0751473782191', 'calinski_harabaz_score: 17.5833333483']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0408935774123', 'calinski_harabaz_score: 17.5833333483']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: manhattan linkage: average
+[0 0 0 4 0 5 0 0 0 0 0 0 3 6 0 1 0 0 0 2 1 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.00923824103891', 'calinski_harabaz_score: 16.2560380383']
+@@@metric results for labels7_2
+['adjusted_rand_score: -0.0199018106952', 'calinski_harabaz_score: 16.2560380383']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: cosine linkage: complete
+[5 3 5 5 6 2 2 3 1 6 2 1 0 4 5 2 4 1 2 0 2 0 1 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.904177757204', 'calinski_harabaz_score: 1.61684057983']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.840296262007', 'calinski_harabaz_score: 1.61684057983']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: cosine linkage: average
+[3 1 3 3 0 6 6 1 5 0 6 5 2 0 3 6 0 5 6 2 6 4 5 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 1.0', 'calinski_harabaz_score: 2.53733809654']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.937577745109', 'calinski_harabaz_score: 2.53733809654']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: precomputed linkage: complete
+[2 2 2 2 1 2 2 2 1 0 1 0 1 2 0 0 6 2 2 4 2 5 3 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0328096118299', 'calinski_harabaz_score: 0.657391625685']
+@@@metric results for labels7_2
+['adjusted_rand_score: -0.00970425138632', 'calinski_harabaz_score: 0.657391625685']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 7 affinity: precomputed linkage: average
+[2 2 2 2 1 2 2 2 1 0 1 0 1 2 0 0 6 2 2 4 2 5 3 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0328096118299', 'calinski_harabaz_score: 0.657391625685']
+@@@metric results for labels7_2
+['adjusted_rand_score: -0.00970425138632', 'calinski_harabaz_score: 0.657391625685']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: euclidean linkage: ward
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: euclidean linkage: complete
+[2 0 2 5 0 1 1 0 0 0 1 0 7 4 2 3 0 0 1 6 3 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.281561822126', 'calinski_harabaz_score: 19.7238878589']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.321779617175', 'calinski_harabaz_score: 19.7238878589']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: euclidean linkage: average
+[2 0 2 5 0 0 0 0 0 0 0 0 7 4 2 1 0 3 0 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0935340403695', 'calinski_harabaz_score: 18.3446790623']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.124437167417', 'calinski_harabaz_score: 18.3446790623']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: l1 linkage: complete
+[2 2 2 4 2 7 5 2 2 2 2 2 3 1 2 0 2 2 5 6 0 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0249195634345', 'calinski_harabaz_score: 15.9954846495']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0528900642236', 'calinski_harabaz_score: 15.9954846495']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: l1 linkage: average
+[1 1 1 4 1 5 3 1 1 1 1 1 7 6 1 0 1 1 3 2 0 1 1 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0249195634345', 'calinski_harabaz_score: 15.9954846495']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0528900642236', 'calinski_harabaz_score: 15.9954846495']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: l2 linkage: complete
+[2 0 2 5 0 1 1 0 0 0 1 0 7 4 2 3 0 0 1 6 3 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.281561822126', 'calinski_harabaz_score: 19.7238878589']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.321779617175', 'calinski_harabaz_score: 19.7238878589']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: l2 linkage: average
+[2 0 2 5 0 0 0 0 0 0 0 0 7 4 2 1 0 3 0 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0935340403695', 'calinski_harabaz_score: 18.3446790623']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.124437167417', 'calinski_harabaz_score: 18.3446790623']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: manhattan linkage: complete
+[2 2 2 4 2 7 5 2 2 2 2 2 3 1 2 0 2 2 5 6 0 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0249195634345', 'calinski_harabaz_score: 15.9954846495']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0528900642236', 'calinski_harabaz_score: 15.9954846495']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: manhattan linkage: average
+[1 1 1 4 1 5 3 1 1 1 1 1 7 6 1 0 1 1 3 2 0 1 1 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0249195634345', 'calinski_harabaz_score: 15.9954846495']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0528900642236', 'calinski_harabaz_score: 15.9954846495']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: cosine linkage: complete
+[5 1 5 5 6 2 2 1 0 6 2 0 3 4 5 2 4 0 2 3 2 7 0 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.899380240612', 'calinski_harabaz_score: 2.18780904255']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.91720662347', 'calinski_harabaz_score: 2.18780904255']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: cosine linkage: average
+[7 0 7 7 3 6 6 0 5 3 6 5 2 1 7 6 1 5 6 2 6 4 5 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.899380240612', 'calinski_harabaz_score: 2.18780904255']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.91720662347', 'calinski_harabaz_score: 2.18780904255']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: precomputed linkage: complete
+[2 2 2 2 1 2 2 2 1 0 1 0 1 2 0 7 6 2 2 4 2 5 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.010752688172', 'calinski_harabaz_score: 0.586611912401']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0485021398003', 'calinski_harabaz_score: 0.586611912401']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 8 affinity: precomputed linkage: average
+[2 2 2 2 1 2 2 2 1 0 1 0 1 2 0 7 6 2 2 4 2 5 3 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.010752688172', 'calinski_harabaz_score: 0.586611912401']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0485021398003', 'calinski_harabaz_score: 0.586611912401']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: euclidean linkage: ward
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: euclidean linkage: complete
+[2 1 2 5 1 0 0 1 1 1 0 1 7 4 2 3 1 8 0 6 3 1 1 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.271033422973', 'calinski_harabaz_score: 18.8387899074']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: euclidean linkage: average
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 8 3 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.097217621729', 'calinski_harabaz_score: 19.062551424']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: l1 linkage: complete
+[0 0 0 4 0 7 2 0 0 0 0 0 8 3 0 1 0 0 2 6 5 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0165436497837', 'calinski_harabaz_score: 14.2152148363']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: l1 linkage: average
+[0 0 0 4 0 5 1 0 0 0 0 0 7 6 0 8 0 0 1 2 3 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0165436497837', 'calinski_harabaz_score: 14.2152148363']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: l2 linkage: complete
+[2 1 2 5 1 0 0 1 1 1 0 1 7 4 2 3 1 8 0 6 3 1 1 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.271033422973', 'calinski_harabaz_score: 18.8387899074']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: l2 linkage: average
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 8 3 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.097217621729', 'calinski_harabaz_score: 19.062551424']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: manhattan linkage: complete
+[0 0 0 4 0 7 2 0 0 0 0 0 8 3 0 1 0 0 2 6 5 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0165436497837', 'calinski_harabaz_score: 14.2152148363']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: manhattan linkage: average
+[0 0 0 4 0 5 1 0 0 0 0 0 7 6 0 8 0 0 1 2 3 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0165436497837', 'calinski_harabaz_score: 14.2152148363']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: cosine linkage: complete
+[5 0 5 5 6 2 2 0 3 6 2 8 1 4 5 2 4 3 2 1 2 7 8 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.803061754022', 'calinski_harabaz_score: 1.85209680356']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: cosine linkage: average
+[7 5 7 7 3 6 6 5 2 3 6 2 0 1 7 6 1 2 6 0 6 4 2 8]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.912834765033', 'calinski_harabaz_score: 1.85978673706']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: precomputed linkage: complete
+[2 2 2 2 1 2 2 2 1 0 1 0 1 2 8 7 6 2 2 4 2 5 3 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0226310647997', 'calinski_harabaz_score: 0.520986337813']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AggloClu with n_clusters: 9 affinity: precomputed linkage: average
+[2 2 2 2 1 2 2 2 1 0 1 0 1 2 8 7 6 2 2 4 2 5 3 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0226310647997', 'calinski_harabaz_score: 0.520986337813']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.0001
+[0 3 0 6 5 5 2 3 5 5 5 5 1 4 0 2 5 5 2 5 2 5 5 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.211860428728', 'calinski_harabaz_score: 20.1842360028']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.233453293694', 'calinski_harabaz_score: 20.1842360028']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.001
+[4 0 4 6 0 0 2 0 0 0 0 0 1 3 4 2 0 0 2 5 2 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.01
+[3 0 3 5 0 0 2 0 0 0 0 0 1 6 3 4 0 0 2 0 4 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.1
+[6 2 6 3 2 2 5 2 2 2 2 2 1 4 6 5 2 2 5 0 5 2 2 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001
+[3 1 5 4 3 3 6 1 3 3 3 3 2 0 5 6 3 3 6 3 6 3 3 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.129495359629', 'calinski_harabaz_score: 19.6524565623']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.149506960557', 'calinski_harabaz_score: 19.6524565623']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.001
+[1 1 3 2 1 1 4 1 1 1 1 1 0 6 3 5 1 1 4 1 5 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0262270513301', 'calinski_harabaz_score: 19.934747064']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0089921318846', 'calinski_harabaz_score: 19.934747064']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.01
+[4 0 4 2 0 0 3 0 0 0 0 0 1 5 4 6 0 0 3 0 6 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.1
+[1 3 1 5 3 3 6 3 3 3 3 3 2 0 1 4 3 3 6 3 4 3 3 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: full tol: 0.0001
+[2 0 2 1 3 3 4 0 3 3 3 3 5 6 2 4 3 3 4 3 4 3 3 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.211860428728', 'calinski_harabaz_score: 20.1842360028']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.233453293694', 'calinski_harabaz_score: 20.1842360028']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: full tol: 0.001
+[1 0 1 5 0 0 6 0 0 0 0 0 2 4 1 6 0 3 6 0 6 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.145756855971', 'calinski_harabaz_score: 20.1420941692']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.125890736342', 'calinski_harabaz_score: 20.1420941692']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: full tol: 0.01
+[1 1 1 2 1 0 0 1 1 1 0 1 5 3 1 6 4 1 0 1 6 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.126233004532', 'calinski_harabaz_score: 15.8702583412']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.107837909891', 'calinski_harabaz_score: 15.8702583412']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: full tol: 0.1
+[4 4 4 1 4 5 5 4 4 4 5 4 0 3 4 6 4 4 5 2 6 4 4 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.163023193815', 'calinski_harabaz_score: 17.7310229356']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.126233004532', 'calinski_harabaz_score: 17.7310229356']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.0001
+[0 4 0 0 1 1 2 4 1 1 1 1 6 3 0 2 1 1 2 5 2 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.32002672457', 'calinski_harabaz_score: 18.1891293232']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.32002672457', 'calinski_harabaz_score: 18.1891293232']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.001
+[3 5 0 1 5 5 2 5 5 5 5 5 6 4 0 2 5 5 2 5 2 5 5 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.126233004532', 'calinski_harabaz_score: 19.3476770619']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.107837909891', 'calinski_harabaz_score: 19.3476770619']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.01
+[2 0 2 2 1 1 1 0 1 1 1 1 5 3 2 4 1 1 1 6 4 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.229553364269', 'calinski_harabaz_score: 17.407698374']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.229553364269', 'calinski_harabaz_score: 17.407698374']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.1
+[0 0 3 3 0 0 2 0 6 0 0 0 5 4 3 2 0 0 2 1 2 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.145756855971', 'calinski_harabaz_score: 16.8716528213']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.106024616713', 'calinski_harabaz_score: 16.8716528213']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: full tol: 0.0001
+[5 0 5 4 0 0 2 0 0 0 0 0 1 3 5 2 0 0 2 6 2 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: full tol: 0.001
+[0 0 5 2 0 0 4 0 0 0 0 0 1 3 5 4 0 0 4 6 4 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.126233004532', 'calinski_harabaz_score: 20.4238671657']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0894428152493', 'calinski_harabaz_score: 20.4238671657']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: full tol: 0.01
+[0 0 5 3 0 0 2 0 0 0 0 0 1 4 5 2 0 6 2 0 2 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0710477206078', 'calinski_harabaz_score: 19.609161724']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0526526259664', 'calinski_harabaz_score: 19.609161724']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: full tol: 0.1
+[4 3 4 0 3 3 1 3 3 3 3 3 2 6 4 5 3 3 1 3 5 3 3 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.0001
+[2 3 2 5 3 3 0 3 3 3 3 3 1 4 2 6 3 3 0 3 6 3 3 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.001
+[0 0 6 2 0 0 3 0 0 0 0 0 1 5 6 4 0 0 3 0 4 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0262270513301', 'calinski_harabaz_score: 19.934747064']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0089921318846', 'calinski_harabaz_score: 19.934747064']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.01
+[0 6 0 2 6 6 4 6 6 6 6 6 1 5 0 3 6 6 4 6 3 6 6 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.1
+[0 0 6 2 0 0 5 0 0 0 0 0 1 3 6 4 0 0 5 0 4 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0262270513301', 'calinski_harabaz_score: 19.934747064']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0089921318846', 'calinski_harabaz_score: 19.934747064']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: full tol: 0.0001
+[5 6 5 4 2 2 3 6 2 2 2 2 1 0 5 3 2 2 3 2 3 2 2 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.211860428728', 'calinski_harabaz_score: 20.1842360028']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.233453293694', 'calinski_harabaz_score: 20.1842360028']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: full tol: 0.001
+[0 2 0 4 0 0 5 2 0 0 0 0 3 6 0 1 0 0 5 0 1 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0262270513301', 'calinski_harabaz_score: 17.1395144262']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0434619707756', 'calinski_harabaz_score: 17.1395144262']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: full tol: 0.01
+[0 3 0 4 3 3 5 3 3 3 5 3 1 2 0 6 3 3 5 3 6 3 3 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.153312395004', 'calinski_harabaz_score: 20.0547724382']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.133153166314', 'calinski_harabaz_score: 20.0547724382']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: full tol: 0.1
+[0 2 0 5 6 6 6 2 6 6 6 6 1 3 0 4 6 6 6 6 4 6 6 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.13295500608', 'calinski_harabaz_score: 19.1843126941']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.151601134982', 'calinski_harabaz_score: 19.1843126941']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: elkan tol: 0.0001
+[2 4 0 2 1 1 5 4 1 1 1 1 3 6 0 5 1 1 5 1 5 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.194700733381', 'calinski_harabaz_score: 18.1543042922']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.216465578424', 'calinski_harabaz_score: 18.1543042922']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: elkan tol: 0.001
+[1 2 1 1 2 2 5 2 4 2 2 2 3 0 1 5 2 2 5 6 5 2 2 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.245378927911', 'calinski_harabaz_score: 17.1057500981']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.202865064695', 'calinski_harabaz_score: 17.1057500981']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: elkan tol: 0.01
+[1 4 1 6 0 1 1 1 1 1 1 1 5 3 1 2 1 1 1 1 2 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: -0.00533178482817', 'calinski_harabaz_score: 14.4273429598']
+@@@metric results for labels7_2
+['adjusted_rand_score: -0.00533178482817', 'calinski_harabaz_score: 14.4273429598']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 300 init: random algorithm: elkan tol: 0.1
+[6 6 4 1 6 6 0 6 6 6 6 6 3 2 4 0 6 5 0 6 0 6 6 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0710477206078', 'calinski_harabaz_score: 19.609161724']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0526526259664', 'calinski_harabaz_score: 19.609161724']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: full tol: 0.0001
+[4 1 4 2 1 1 5 1 1 1 1 1 0 6 4 3 1 1 5 1 3 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: full tol: 0.001
+[5 0 5 2 0 0 3 0 0 0 0 0 1 4 5 6 0 0 3 0 6 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: full tol: 0.01
+[0 2 0 4 2 2 6 2 2 2 2 2 1 3 0 5 2 2 6 2 5 2 2 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: full tol: 0.1
+[5 1 5 2 1 1 6 1 1 1 1 1 0 4 5 3 1 1 6 1 3 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.0001
+[0 4 0 6 4 4 3 4 4 4 4 4 1 5 0 2 4 4 3 4 2 4 4 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.001
+[4 2 4 3 2 2 0 2 2 2 2 2 1 5 4 6 2 2 0 2 6 2 2 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.01
+[1 1 4 0 1 1 5 1 1 1 1 1 2 3 4 6 1 1 5 1 6 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0262270513301', 'calinski_harabaz_score: 19.934747064']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0089921318846', 'calinski_harabaz_score: 19.934747064']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.1
+[2 3 2 6 3 3 5 3 3 3 3 3 1 4 2 5 3 0 5 3 5 3 3 3]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.145756855971', 'calinski_harabaz_score: 20.1420941692']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.125890736342', 'calinski_harabaz_score: 20.1420941692']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.0001
+[0 4 0 3 6 4 1 4 4 4 4 4 5 2 0 1 4 4 1 4 1 4 4 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 18.2355686869']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.145756855971', 'calinski_harabaz_score: 18.2355686869']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.001
+[2 6 2 4 2 1 2 6 2 2 1 2 0 3 2 5 2 2 2 2 5 2 2 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0262270513301', 'calinski_harabaz_score: 15.8804378372']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0434619707756', 'calinski_harabaz_score: 15.8804378372']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.01
+[6 5 6 3 5 5 2 5 5 5 5 5 4 0 6 1 5 5 2 5 1 5 5 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.0956627482773', 'calinski_harabaz_score: 20.5015249966']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.0770166193758', 'calinski_harabaz_score: 20.5015249966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: full tol: 0.1
+[5 3 5 1 2 2 4 3 2 2 2 2 6 0 5 4 2 2 4 2 4 2 2 2]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.211860428728', 'calinski_harabaz_score: 20.1842360028']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.233453293694', 'calinski_harabaz_score: 20.1842360028']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: elkan tol: 0.0001
+[3 0 3 3 5 5 2 0 5 5 5 5 1 4 3 2 5 5 2 6 2 5 5 5]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.32002672457', 'calinski_harabaz_score: 18.1891293232']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.32002672457', 'calinski_harabaz_score: 18.1891293232']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: elkan tol: 0.001
+[1 4 1 1 4 4 6 4 4 4 4 5 0 3 1 6 4 2 6 4 6 4 4 4]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.202865064695', 'calinski_harabaz_score: 16.2052579816']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.181608133087', 'calinski_harabaz_score: 16.2052579816']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: elkan tol: 0.01
+[0 0 4 4 0 6 3 0 0 0 3 0 2 1 4 5 0 0 3 0 5 0 0 0]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.153312395004', 'calinski_harabaz_score: 17.1112008787']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.133153166314', 'calinski_harabaz_score: 17.1112008787']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 7 max_iter: 900 init: random algorithm: elkan tol: 0.1
+[3 6 3 3 6 6 1 6 6 6 6 6 5 2 3 0 6 4 1 6 0 6 6 6]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.129495359629', 'calinski_harabaz_score: 17.807712663']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.109483758701', 'calinski_harabaz_score: 17.807712663']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: full tol: 0.0001
+[1 1 3 5 1 1 7 1 1 1 1 1 2 4 3 0 1 1 7 6 0 1 1 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0395534729879', 'calinski_harabaz_score: 19.2515238668']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0708985985161', 'calinski_harabaz_score: 19.2515238668']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: full tol: 0.001
+[0 0 6 2 0 0 3 0 0 0 0 0 1 5 6 4 0 0 3 7 4 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0395534729879', 'calinski_harabaz_score: 19.2515238668']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0708985985161', 'calinski_harabaz_score: 19.2515238668']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: full tol: 0.01
+[0 0 2 5 0 0 6 0 0 0 0 0 1 4 2 3 0 0 6 7 3 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0395534729879', 'calinski_harabaz_score: 19.2515238668']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0708985985161', 'calinski_harabaz_score: 19.2515238668']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: full tol: 0.1
+[2 2 5 4 2 2 7 2 2 2 2 2 1 3 5 0 2 6 7 2 0 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: -0.0175027563396', 'calinski_harabaz_score: 18.3899409821']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0140148392415', 'calinski_harabaz_score: 18.3899409821']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001
+[4 0 4 2 0 0 3 0 0 0 0 0 1 6 4 5 0 0 3 7 5 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.001
+[3 3 7 4 3 3 5 3 3 3 3 3 1 6 7 2 3 3 5 0 2 3 3 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0395534729879', 'calinski_harabaz_score: 19.2515238668']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0708985985161', 'calinski_harabaz_score: 19.2515238668']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.01
+[0 0 6 2 0 0 4 0 0 0 0 0 1 3 6 7 0 0 4 5 7 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0395534729879', 'calinski_harabaz_score: 19.2515238668']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0708985985161', 'calinski_harabaz_score: 19.2515238668']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.1
+[2 2 4 5 2 2 0 2 2 2 2 2 1 3 4 6 2 2 0 7 6 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0395534729879', 'calinski_harabaz_score: 19.2515238668']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0708985985161', 'calinski_harabaz_score: 19.2515238668']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: full tol: 0.0001
+[4 4 4 2 4 4 6 4 3 4 4 5 7 0 4 1 4 4 6 4 1 4 5 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: -0.0175027563396', 'calinski_harabaz_score: 13.6384981115']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0140148392415', 'calinski_harabaz_score: 13.6384981115']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: full tol: 0.001
+[5 3 6 2 5 5 4 3 5 5 5 5 0 1 6 7 5 5 4 5 7 5 5 5]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0748719493823', 'calinski_harabaz_score: 18.4355034374']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0684068406841', 'calinski_harabaz_score: 18.4355034374']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: full tol: 0.01
+[5 5 3 3 5 1 0 5 6 5 1 5 2 7 3 4 5 6 0 5 4 5 5 5]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.101818830243', 'calinski_harabaz_score: 15.6674641962']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.144527098831', 'calinski_harabaz_score: 15.6674641962']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: full tol: 0.1
+[3 2 3 3 4 4 6 4 0 4 4 4 7 1 3 5 4 4 6 4 5 4 4 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.124477995503', 'calinski_harabaz_score: 14.9503006955']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.139980824545', 'calinski_harabaz_score: 14.9503006955']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: elkan tol: 0.0001
+[1 6 1 7 0 0 4 0 0 0 3 0 2 5 1 3 0 0 4 0 4 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.150700461576', 'calinski_harabaz_score: 17.1315038409']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.166263895602', 'calinski_harabaz_score: 17.1315038409']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: elkan tol: 0.001
+[7 3 7 7 3 4 2 3 3 3 4 3 0 5 7 1 3 3 2 6 1 3 3 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.263001225705', 'calinski_harabaz_score: 16.8658172617']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.30375782881', 'calinski_harabaz_score: 16.8658172617']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: elkan tol: 0.01
+[1 3 1 1 0 0 5 3 0 0 5 0 4 6 1 7 0 0 5 0 7 0 0 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.335912436309', 'calinski_harabaz_score: 15.0234551678']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.32808988764', 'calinski_harabaz_score: 15.0234551678']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 100 init: random algorithm: elkan tol: 0.1
+[0 6 0 3 6 6 7 6 4 6 6 6 1 5 0 2 6 6 7 6 2 6 6 6]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0510501532252', 'calinski_harabaz_score: 17.6067465308']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0857525681108', 'calinski_harabaz_score: 17.6067465308']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.0001
+[2 2 6 3 2 2 4 2 2 2 2 2 1 5 6 7 2 2 4 0 7 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0395534729879', 'calinski_harabaz_score: 19.2515238668']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0708985985161', 'calinski_harabaz_score: 19.2515238668']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.001
+[0 2 0 4 2 2 7 2 2 2 2 2 1 6 0 3 2 2 7 5 3 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.01
+[3 2 3 6 2 0 7 2 2 2 2 2 1 5 3 4 2 2 7 2 4 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0923088422154', 'calinski_harabaz_score: 18.7270725193']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.126842340331', 'calinski_harabaz_score: 18.7270725193']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: full tol: 0.1
+[0 2 0 5 2 2 6 2 2 2 2 2 1 3 0 4 2 2 6 7 4 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.0001
+[4 0 4 5 3 3 2 0 3 3 3 3 1 6 4 2 3 3 2 7 2 3 3 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.281561822126', 'calinski_harabaz_score: 19.4556425017']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.274185204346', 'calinski_harabaz_score: 19.4556425017']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.001
+[0 0 6 2 0 0 7 0 0 0 0 0 1 4 6 3 0 0 7 5 3 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0395534729879', 'calinski_harabaz_score: 19.2515238668']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0708985985161', 'calinski_harabaz_score: 19.2515238668']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.01
+[3 2 3 4 2 2 6 2 2 2 2 2 1 5 3 0 2 2 6 7 0 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.1
+[0 2 0 5 2 2 6 2 2 2 2 2 1 4 0 3 2 2 6 7 3 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.0001
+[1 2 1 5 0 0 7 2 0 0 0 0 3 6 1 7 0 0 7 0 7 0 4 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.209718004338', 'calinski_harabaz_score: 16.9213567854']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.202793585101', 'calinski_harabaz_score: 16.9213567854']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.001
+[4 3 4 1 3 3 5 3 6 3 3 3 2 7 4 0 3 3 5 3 0 3 3 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0510501532252', 'calinski_harabaz_score: 17.6067465308']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0857525681108', 'calinski_harabaz_score: 17.6067465308']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.01
+[6 5 6 6 3 3 1 0 3 3 3 3 2 4 6 1 3 7 1 3 1 3 3 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.247123007416', 'calinski_harabaz_score: 14.9517198785']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.239959328927', 'calinski_harabaz_score: 14.9517198785']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.1
+[1 7 1 1 0 6 3 7 5 0 0 0 4 2 1 3 0 5 3 7 3 0 0 7]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.398659217877', 'calinski_harabaz_score: 15.1180422408']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.450928381963', 'calinski_harabaz_score: 15.1180422408']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: elkan tol: 0.0001
+[3 3 3 2 3 7 1 3 6 3 7 3 5 4 3 0 3 3 1 3 0 3 3 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0205347298787', 'calinski_harabaz_score: 14.5861698727']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0519373454246', 'calinski_harabaz_score: 14.5861698727']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: elkan tol: 0.001
+[3 1 3 5 2 1 0 1 1 1 1 7 6 4 3 0 1 1 0 1 0 1 1 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.120669056153', 'calinski_harabaz_score: 15.2512044945']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.157869709938', 'calinski_harabaz_score: 15.2512044945']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: elkan tol: 0.01
+[2 7 2 3 0 0 4 7 0 0 0 0 1 5 2 4 0 6 4 2 4 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.246390225842', 'calinski_harabaz_score: 17.3431586331']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.239250275634', 'calinski_harabaz_score: 17.3431586331']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: elkan tol: 0.1
+[6 1 6 7 2 2 0 1 3 2 2 2 4 5 6 0 2 3 0 2 0 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.231741838083', 'calinski_harabaz_score: 18.2347699571']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.224719101124', 'calinski_harabaz_score: 18.2347699571']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: full tol: 0.0001
+[2 2 3 5 2 2 6 2 2 2 2 2 1 4 3 7 2 0 6 2 7 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: -0.0175027563396', 'calinski_harabaz_score: 18.3899409821']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0140148392415', 'calinski_harabaz_score: 18.3899409821']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: full tol: 0.001
+[0 0 6 2 0 0 5 0 0 0 0 0 1 3 6 4 0 0 5 7 4 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0395534729879', 'calinski_harabaz_score: 19.2515238668']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0708985985161', 'calinski_harabaz_score: 19.2515238668']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: full tol: 0.01
+[1 1 4 0 1 5 3 1 1 1 1 1 2 7 4 3 1 1 3 6 3 1 1 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.126389400074', 'calinski_harabaz_score: 18.642320587']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.160140783106', 'calinski_harabaz_score: 18.642320587']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: full tol: 0.1
+[6 3 6 4 3 2 2 3 3 3 2 3 1 7 6 5 3 3 2 0 5 3 3 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.281561822126', 'calinski_harabaz_score: 19.7238878589']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.321779617175', 'calinski_harabaz_score: 19.7238878589']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.0001
+[5 0 5 4 0 0 2 0 0 0 0 0 1 6 5 3 0 0 2 7 3 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.001
+[5 2 5 3 2 2 0 2 2 2 2 2 1 4 5 6 2 2 0 7 6 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.01
+[0 7 4 3 0 0 2 7 0 0 0 0 1 5 4 6 0 0 2 0 6 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0748719493823', 'calinski_harabaz_score: 18.4355034374']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0684068406841', 'calinski_harabaz_score: 18.4355034374']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.1
+[3 7 3 5 1 1 6 7 1 1 1 1 2 4 3 0 1 1 6 1 0 1 1 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.154826065654', 'calinski_harabaz_score: 18.9971790998']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.148148148148', 'calinski_harabaz_score: 18.9971790998']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: full tol: 0.0001
+[4 6 4 4 1 1 5 6 3 1 1 1 0 7 4 2 1 3 5 6 2 1 1 6]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.284587968463', 'calinski_harabaz_score: 15.6990083463']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.33611289288', 'calinski_harabaz_score: 15.6990083463']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: full tol: 0.001
+[3 6 3 3 7 7 7 7 2 7 7 7 0 5 3 1 7 2 7 4 1 7 7 7]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.190973337616', 'calinski_harabaz_score: 15.3318302934']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.206136145733', 'calinski_harabaz_score: 15.3318302934']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: full tol: 0.01
+[0 0 3 4 0 0 0 0 0 0 0 0 6 7 3 1 0 2 0 0 1 0 5 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: -0.00990473787143', 'calinski_harabaz_score: 15.56928119']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.0181337363053', 'calinski_harabaz_score: 15.56928119']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: full tol: 0.1
+[6 4 6 6 4 4 2 4 0 4 4 4 5 1 6 3 4 4 2 4 7 4 4 4]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.0857563489142', 'calinski_harabaz_score: 14.5151399511']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.119665640123', 'calinski_harabaz_score: 14.5151399511']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: elkan tol: 0.0001
+[2 3 2 7 3 4 5 3 3 3 4 3 1 6 2 0 3 3 5 4 0 3 3 3]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.195335276968', 'calinski_harabaz_score: 19.0953564339']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.236966824645', 'calinski_harabaz_score: 19.0953564339']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: elkan tol: 0.001
+[2 4 5 5 0 7 2 4 2 2 7 2 1 3 5 6 2 2 2 2 6 2 2 2]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.109750122489', 'calinski_harabaz_score: 13.4474961271']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.103313840156', 'calinski_harabaz_score: 13.4474961271']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: elkan tol: 0.01
+[6 2 6 6 1 1 3 2 1 1 1 1 5 7 6 3 1 0 3 4 3 1 1 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.32302850796', 'calinski_harabaz_score: 16.533844319']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.315325248071', 'calinski_harabaz_score: 16.533844319']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 8 max_iter: 900 init: random algorithm: elkan tol: 0.1
+[2 6 2 2 1 1 4 1 1 1 1 3 7 0 2 4 1 1 4 5 4 1 3 1]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.271936319882', 'calinski_harabaz_score: 15.1079217873']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.289966923925', 'calinski_harabaz_score: 15.1079217873']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: full tol: 0.0001
+[0 0 5 2 0 7 8 0 0 0 0 0 1 3 5 4 0 0 8 6 4 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0635864592864', 'calinski_harabaz_score: 18.1741392463']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: full tol: 0.001
+[2 0 5 3 2 2 6 0 2 2 2 2 1 4 5 7 2 2 6 8 7 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.123955897093', 'calinski_harabaz_score: 18.4594582856']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: full tol: 0.01
+[0 8 2 3 0 0 7 8 0 0 0 0 1 4 2 6 0 0 7 5 6 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.123955897093', 'calinski_harabaz_score: 18.4594582856']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: full tol: 0.1
+[5 2 3 6 2 2 0 2 2 2 2 2 1 4 3 8 2 2 0 7 8 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0846294602013', 'calinski_harabaz_score: 18.1109523416']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001
+[2 2 6 3 2 2 5 2 2 2 2 2 1 4 6 7 2 0 5 8 7 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0215004574565', 'calinski_harabaz_score: 18.4253190118']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.001
+[2 3 2 8 3 0 6 3 3 3 0 3 1 5 2 7 3 3 6 4 7 3 3 3]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0269562314']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.01
+[4 8 4 3 1 1 0 1 1 1 1 1 2 5 4 7 1 1 0 6 7 1 1 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.142928121895', 'calinski_harabaz_score: 18.6569068257']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.1
+[3 0 3 5 2 2 6 0 2 2 2 2 1 7 3 4 2 8 6 2 4 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.137187386734', 'calinski_harabaz_score: 18.1056572902']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: full tol: 0.0001
+[7 3 0 4 3 3 1 3 8 3 3 3 2 5 0 1 3 6 1 3 1 3 3 3]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0900358189515', 'calinski_harabaz_score: 15.6242108457']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: full tol: 0.001
+[8 4 8 3 7 1 6 4 7 7 1 7 0 2 8 5 7 7 6 7 5 7 7 7]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.262178217822', 'calinski_harabaz_score: 18.0380042876']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: full tol: 0.01
+[4 3 4 4 3 0 1 3 3 3 0 3 5 2 4 1 3 6 1 3 1 3 7 8]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.33735185942', 'calinski_harabaz_score: 12.7373281053']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: full tol: 0.1
+[2 3 4 4 8 2 0 3 2 2 2 2 6 1 4 5 2 2 0 7 5 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.162196447988', 'calinski_harabaz_score: 13.997002']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: elkan tol: 0.0001
+[1 3 0 4 2 6 7 2 2 2 6 2 5 8 0 7 2 2 7 2 7 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.226787620064', 'calinski_harabaz_score: 16.4466105559']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: elkan tol: 0.001
+[0 2 1 1 2 4 7 2 2 2 2 2 5 8 1 3 2 2 7 6 3 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.142928121895', 'calinski_harabaz_score: 15.2140402253']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: elkan tol: 0.01
+[0 5 0 7 5 5 4 5 5 5 8 5 3 6 0 8 5 1 4 2 4 5 5 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.15763016158', 'calinski_harabaz_score: 17.2570516554']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 100 init: random algorithm: elkan tol: 0.1
+[8 8 0 5 3 8 8 8 8 8 8 8 2 1 0 7 8 4 8 6 7 8 8 8]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0296574770259', 'calinski_harabaz_score: 14.9910402927']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: full tol: 0.0001
+[0 5 0 6 5 5 2 5 3 5 5 5 1 4 0 7 5 3 2 8 7 5 5 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.11217832548', 'calinski_harabaz_score: 18.6509924874']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: full tol: 0.001
+[8 0 6 2 0 0 7 0 0 0 0 0 1 3 6 4 0 0 7 5 4 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0846294602013', 'calinski_harabaz_score: 18.1109523416']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: full tol: 0.01
+[0 0 3 5 0 8 6 0 0 0 0 0 1 4 3 2 0 0 6 7 2 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0635864592864', 'calinski_harabaz_score: 18.1741392463']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: full tol: 0.1
+[5 0 5 3 0 0 2 0 0 0 0 0 1 6 5 7 0 8 2 4 7 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.097217621729', 'calinski_harabaz_score: 19.062551424']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.0001
+[2 0 2 6 0 8 5 0 0 0 0 0 1 3 2 4 0 0 5 7 4 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.142928121895', 'calinski_harabaz_score: 18.8114124447']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.001
+[0 0 3 2 0 0 6 0 0 0 0 0 1 5 3 4 0 8 6 7 4 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0215004574565', 'calinski_harabaz_score: 18.4253190118']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.01
+[5 7 5 2 0 0 8 0 0 0 0 0 1 3 5 4 0 0 8 6 4 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.142928121895', 'calinski_harabaz_score: 18.6569068257']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: elkan tol: 0.1
+[2 0 2 5 0 8 3 0 0 0 0 0 1 4 2 6 0 0 3 7 6 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.142928121895', 'calinski_harabaz_score: 18.8114124447']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: full tol: 0.0001
+[2 1 4 3 2 0 7 1 2 2 0 2 5 8 4 7 2 2 7 2 7 2 2 6]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.303841676368', 'calinski_harabaz_score: 15.965283509']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: full tol: 0.001
+[6 1 3 7 1 1 4 1 1 1 1 1 0 5 6 2 1 1 4 8 2 1 1 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0846294602013', 'calinski_harabaz_score: 17.4563640769']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: full tol: 0.01
+[0 4 0 0 4 6 5 4 4 4 6 4 1 3 0 7 4 8 5 4 7 4 2 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.196740395809', 'calinski_harabaz_score: 13.7647992752']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: full tol: 0.1
+[3 4 1 8 4 4 6 4 2 4 4 4 5 0 1 6 4 2 6 4 6 4 4 7]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.153148345784', 'calinski_harabaz_score: 15.4383143124']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: elkan tol: 0.0001
+[8 0 4 6 0 0 1 0 2 0 0 0 3 5 4 1 0 0 1 0 1 0 0 7]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.134972321719', 'calinski_harabaz_score: 14.593032078']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: elkan tol: 0.001
+[6 5 3 1 5 4 4 5 5 5 4 5 7 2 6 8 5 5 4 0 8 5 5 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.251334044824', 'calinski_harabaz_score: 17.326979234']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: elkan tol: 0.01
+[0 2 0 7 4 4 4 2 4 4 4 4 6 5 0 8 4 4 4 1 8 4 3 4]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.18863862206', 'calinski_harabaz_score: 15.8325660508']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 300 init: random algorithm: elkan tol: 0.1
+[3 4 3 3 1 6 2 4 1 1 1 1 7 0 3 8 1 5 2 1 8 1 1 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.223515715949', 'calinski_harabaz_score: 14.9652486637']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: full tol: 0.0001
+[6 8 6 3 2 2 5 2 2 2 2 2 1 4 6 0 2 2 5 7 0 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.142928121895', 'calinski_harabaz_score: 18.6569068257']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: full tol: 0.001
+[0 0 3 5 0 0 4 0 0 0 0 0 1 2 3 7 0 8 4 6 7 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0215004574565', 'calinski_harabaz_score: 18.4253190118']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: full tol: 0.01
+[0 3 0 7 3 5 6 3 3 3 5 3 2 4 0 1 3 3 6 8 1 3 3 3]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0269562314']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: full tol: 0.1
+[0 3 0 6 3 2 2 3 3 3 2 3 1 4 0 5 3 7 2 8 5 3 3 3]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.271033422973', 'calinski_harabaz_score: 18.8387899074']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.0001
+[0 0 5 3 0 0 4 0 0 0 0 0 1 2 5 6 0 8 4 7 6 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0215004574565', 'calinski_harabaz_score: 18.4253190118']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.001
+[0 5 0 7 5 2 3 5 5 5 2 5 1 4 0 6 5 5 3 8 6 5 5 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0269562314']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.01
+[2 0 2 4 0 5 3 0 0 0 0 0 1 8 2 7 0 0 3 6 7 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.142928121895', 'calinski_harabaz_score: 18.8114124447']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: k-means++ algorithm: elkan tol: 0.1
+[2 2 7 3 2 0 5 2 2 2 0 2 1 8 7 4 2 2 5 6 4 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.123955897093', 'calinski_harabaz_score: 18.3829720653']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: full tol: 0.0001
+[1 8 1 1 6 5 2 8 4 8 5 8 7 0 1 2 8 8 2 8 2 8 8 3]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.33735185942', 'calinski_harabaz_score: 11.8390026113']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: full tol: 0.001
+[6 1 6 4 7 8 3 5 7 7 8 7 2 0 6 8 7 7 3 7 3 7 5 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.314053321283', 'calinski_harabaz_score: 15.5747638477']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: full tol: 0.01
+[4 5 7 2 5 5 0 5 5 5 0 5 3 1 7 6 5 5 0 8 6 5 5 5]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.142928121895', 'calinski_harabaz_score: 17.6013233706']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: full tol: 0.1
+[3 3 8 7 3 3 3 3 4 3 3 3 0 6 8 5 3 3 3 2 5 3 3 1]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0680868838764', 'calinski_harabaz_score: 14.610979061']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: elkan tol: 0.0001
+[6 1 6 6 3 0 0 1 3 3 0 7 4 2 6 5 3 3 0 3 5 3 7 8]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.47652916074', 'calinski_harabaz_score: 13.0784445918']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: elkan tol: 0.001
+[6 6 2 7 6 6 1 6 6 6 6 6 0 5 2 3 6 8 1 4 3 6 6 6]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.0215004574565', 'calinski_harabaz_score: 18.4253190118']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: elkan tol: 0.01
+[3 4 8 3 2 1 5 4 2 2 2 2 6 0 8 5 2 2 5 7 5 2 2 2]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.303841676368', 'calinski_harabaz_score: 16.0124144507']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: elkan tol: 0.1
+[5 0 5 4 3 3 8 0 3 6 3 3 1 2 5 8 3 3 8 7 8 3 3 3]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.297541298502', 'calinski_harabaz_score: 16.3375449173']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 7 threshold: 0.1 branching_factor:5
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 7 threshold: 0.1 branching_factor:20
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 7 threshold: 0.1 branching_factor:50
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 7 threshold: 0.5 branching_factor:5
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 7 threshold: 0.5 branching_factor:20
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 7 threshold: 0.5 branching_factor:50
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 7 threshold: 1.0 branching_factor:5
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 7 threshold: 1.0 branching_factor:20
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 7 threshold: 1.0 branching_factor:50
+[2 1 2 5 1 1 0 1 1 1 1 1 3 4 2 0 1 1 0 6 0 1 1 1]
+@@@metric results for labels7_1
+['adjusted_rand_score: 0.205355214856', 'calinski_harabaz_score: 20.9972527404']
+@@@metric results for labels7_2
+['adjusted_rand_score: 0.165622975599', 'calinski_harabaz_score: 20.9972527404']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 8 threshold: 0.1 branching_factor:5
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 8 threshold: 0.1 branching_factor:20
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 8 threshold: 0.1 branching_factor:50
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 8 threshold: 0.5 branching_factor:5
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 8 threshold: 0.5 branching_factor:20
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 8 threshold: 0.5 branching_factor:50
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 8 threshold: 1.0 branching_factor:5
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 8 threshold: 1.0 branching_factor:20
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 8 threshold: 1.0 branching_factor:50
+[2 0 2 5 0 0 3 0 0 0 0 0 7 4 2 1 0 0 3 6 1 0 0 0]
+@@@metric results for labels8_1
+['adjusted_rand_score: 0.112938186711', 'calinski_harabaz_score: 19.8632742349']
+@@@metric results for labels8_2
+['adjusted_rand_score: 0.14738722644', 'calinski_harabaz_score: 19.8632742349']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 9 threshold: 0.1 branching_factor:5
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 9 threshold: 0.1 branching_factor:20
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 9 threshold: 0.1 branching_factor:50
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 9 threshold: 0.5 branching_factor:5
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 9 threshold: 0.5 branching_factor:20
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 9 threshold: 0.5 branching_factor:50
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 9 threshold: 1.0 branching_factor:5
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 9 threshold: 1.0 branching_factor:20
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+Birch with n_clusters: 9 threshold: 1.0 branching_factor:50
+[2 3 2 5 0 0 8 3 0 0 0 0 7 4 2 1 0 0 8 6 1 0 0 0]
+@@@metric results for labels9_1
+['adjusted_rand_score: 0.212214570497', 'calinski_harabaz_score: 19.0900643966']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+MeanShift with bin_seeding: True cluster_all: True
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+MeanShift with bin_seeding: True cluster_all: False
+@@@metric results for labels1_1
+Caught error: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+MeanShift with bin_seeding: False cluster_all: True
+@@@metric results for labels5_1
+[ 0  0  0  2  0  0  0  0  0  0  0  0  1  3  0  0  0  0  0  0 -1  0  0  0]
+['calinski_harabaz_score: 20.4787485267']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+MeanShift with bin_seeding: False cluster_all: False
+@@@metric results for labels5_1
+[ 0  0  0  2  0  0  0  0  0  0  0  0  1  3  0  0  0  0  0  0 -1  0  0  0]
+['calinski_harabaz_score: 20.4787485267']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 15 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.5 convergence_iter: 30 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 100 affinity: euclidean
+@@@metric results for labels4_1
+[3 3 3 0 3 3 3 3 3 3 3 3 1 2 3 3 3 3 3 3 3 3 3 3]
+['calinski_harabaz_score: 22.8486766675']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 200 affinity: euclidean
+@@@metric results for labels4_1
+[3 3 3 0 3 3 3 3 3 3 3 3 1 2 3 3 3 3 3 3 3 3 3 3]
+['calinski_harabaz_score: 22.8486766675']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 500 affinity: euclidean
+@@@metric results for labels4_1
+[3 3 3 0 3 3 3 3 3 3 3 3 1 2 3 3 3 3 3 3 3 3 3 3]
+['calinski_harabaz_score: 22.8486766675']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 15 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 100 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 200 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.75 convergence_iter: 30 max_iter: 500 affinity: euclidean
+@@@metric results for labels6_1
+[5 5 4 0 5 5 1 5 5 5 5 5 2 3 4 1 5 5 1 5 1 5 5 5]
+['calinski_harabaz_score: 22.0884473574']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 100 affinity: euclidean
+@@@metric results for labels3_1
+[2 2 1 1 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2]
+['calinski_harabaz_score: 28.4288569438']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 200 affinity: euclidean
+@@@metric results for labels3_1
+[2 2 1 1 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2]
+['calinski_harabaz_score: 28.4288569438']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 500 affinity: euclidean
+@@@metric results for labels3_1
+[2 2 1 1 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2]
+['calinski_harabaz_score: 28.4288569438']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 100 affinity: euclidean
+@@@metric results for labels3_1
+[2 2 1 1 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2]
+['calinski_harabaz_score: 28.4288569438']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 200 affinity: euclidean
+@@@metric results for labels3_1
+[2 2 1 1 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2]
+['calinski_harabaz_score: 28.4288569438']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 15 max_iter: 500 affinity: euclidean
+@@@metric results for labels3_1
+[2 2 1 1 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2]
+['calinski_harabaz_score: 28.4288569438']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 100 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 100 affinity: euclidean
+@@@metric results for labels3_1
+[2 2 1 1 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2]
+['calinski_harabaz_score: 28.4288569438']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 200 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 200 affinity: euclidean
+@@@metric results for labels3_1
+[2 2 1 1 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2]
+['calinski_harabaz_score: 28.4288569438']
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 500 affinity: precomputed
+Caught error: S must be a square array (shape=(24, 41553))
+
+############################################################################################
+CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True 
+AffinityPropagation with damping: 0.99 convergence_iter: 30 max_iter: 500 affinity: euclidean
+@@@metric results for labels3_1
+[2 2 1 1 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2]
+['calinski_harabaz_score: 28.4288569438']
+#############################################################################
+#################  Just finished CountVectorizer ###############################
+##############################################################################
+############################################################################################
+################# Final reults are      AggloClu_metrics####################################
+############################################################################################
+{'labels7_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: cosine linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([3, 1, 3, 3, 0, 6, 6, 1, 5, 0, 6, 5, 2, 0, 3, 6, 0, 5, 6, 2, 6, 4, 5,
+       1]),
+                                       'val': 1.0,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                          'val': 20.997252740363646,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: cosine linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([3, 1, 3, 3, 0, 6, 6, 1, 5, 0, 6, 5, 2, 0, 3, 6, 0, 5, 6, 2, 6, 4, 5,
+       1]),
+                                       'val': 0.93757774510912595,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                          'val': 20.997252740363646,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: cosine linkage: complete',
+                                       'other_metrics': [],
+                                       'res_label': array([5, 1, 5, 5, 6, 2, 2, 1, 0, 6, 2, 0, 3, 4, 5, 2, 4, 0, 2, 3, 2, 7, 0,
+       1]),
+                                       'val': 0.89938024061246813,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                          'val': 19.863274234877984,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: cosine linkage: complete',
+                                       'other_metrics': [],
+                                       'res_label': array([5, 1, 5, 5, 6, 2, 2, 1, 0, 6, 2, 0, 3, 4, 5, 2, 4, 0, 2, 3, 2, 7, 0,
+       1]),
+                                       'val': 0.91720662347012238,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                          'val': 19.863274234877984,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 9 affinity: cosine linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 5, 7, 7, 3, 6, 6, 5, 2, 3, 6, 2, 0, 1, 7, 6, 1, 2, 6, 0, 6, 4, 2,
+       8]),
+                                       'val': 0.91283476503284489,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 9 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 3, 2, 5, 0, 0, 8, 3, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 8, 6, 1, 0, 0,
+       0]),
+                                          'val': 19.090064396590755,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'summary': {'labels7_1': {'adjusted_rand_score': {'res_label': array([3, 1, 3, 3, 0, 6, 6, 1, 5, 0, 6, 5, 2, 0, 3, 6, 0, 5, 6, 2, 6, 4, 5,
+       1]),
+                                                   'val': 1.0},
+                           'calinski_harabaz_score': {'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                                      'val': 20.997252740363646}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': array([3, 1, 3, 3, 0, 6, 6, 1, 5, 0, 6, 5, 2, 0, 3, 6, 0, 5, 6, 2, 6, 4, 5,
+       1]),
+                                                   'val': 0.93757774510912595},
+                           'calinski_harabaz_score': {'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                                      'val': 20.997252740363646}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': array([5, 1, 5, 5, 6, 2, 2, 1, 0, 6, 2, 0, 3, 4, 5, 2, 4, 0, 2, 3, 2, 7, 0,
+       1]),
+                                                   'val': 0.89938024061246813},
+                           'calinski_harabaz_score': {'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                                      'val': 19.863274234877984}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': array([5, 1, 5, 5, 6, 2, 2, 1, 0, 6, 2, 0, 3, 4, 5, 2, 4, 0, 2, 3, 2, 7, 0,
+       1]),
+                                                   'val': 0.91720662347012238},
+                           'calinski_harabaz_score': {'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                                      'val': 19.863274234877984}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': array([7, 5, 7, 7, 3, 6, 6, 5, 2, 3, 6, 2, 0, 1, 7, 6, 1, 2, 6, 0, 6, 4, 2,
+       8]),
+                                                   'val': 0.91283476503284489},
+                           'calinski_harabaz_score': {'res_label': array([2, 3, 2, 5, 0, 0, 8, 3, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 8, 6, 1, 0, 0,
+       0]),
+                                                      'val': 19.090064396590755}}}}
+############################################################################################
+################# Final reults are      KMeans_metrics####################################
+############################################################################################
+{'labels7_1': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.0001',
+                                       'other_metrics': [],
+                                       'res_label': array([0, 4, 0, 0, 1, 1, 2, 4, 1, 1, 1, 1, 6, 3, 0, 2, 1, 1, 2, 5, 2, 1, 1,
+       1], dtype=int32),
+                                       'val': 0.32002672456990144,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.001',
+                                          'other_metrics': [],
+                                          'res_label': array([4, 0, 4, 6, 0, 0, 2, 0, 0, 0, 0, 0, 1, 3, 4, 2, 0, 0, 2, 5, 2, 0, 0,
+       0], dtype=int32),
+                                          'val': 20.997252740363646,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 7 max_iter: 100 init: random algorithm: elkan tol: 0.0001',
+                                       'other_metrics': [],
+                                       'res_label': array([0, 4, 0, 0, 1, 1, 2, 4, 1, 1, 1, 1, 6, 3, 0, 2, 1, 1, 2, 5, 2, 1, 1,
+       1], dtype=int32),
+                                       'val': 0.32002672456990144,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 7 max_iter: 100 init: k-means++ algorithm: full tol: 0.001',
+                                          'other_metrics': [],
+                                          'res_label': array([4, 0, 4, 6, 0, 0, 2, 0, 0, 0, 0, 0, 1, 3, 4, 2, 0, 0, 2, 5, 2, 0, 0,
+       0], dtype=int32),
+                                          'val': 20.997252740363646,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.1',
+                                       'other_metrics': [],
+                                       'res_label': array([1, 7, 1, 1, 0, 6, 3, 7, 5, 0, 0, 0, 4, 2, 1, 3, 0, 5, 3, 7, 3, 0, 0,
+       7], dtype=int32),
+                                       'val': 0.39865921787709502,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001',
+                                          'other_metrics': [],
+                                          'res_label': array([4, 0, 4, 2, 0, 0, 3, 0, 0, 0, 0, 0, 1, 6, 4, 5, 0, 0, 3, 7, 5, 0, 0,
+       0], dtype=int32),
+                                          'val': 19.863274234877988,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 300 init: random algorithm: full tol: 0.1',
+                                       'other_metrics': [],
+                                       'res_label': array([1, 7, 1, 1, 0, 6, 3, 7, 5, 0, 0, 0, 4, 2, 1, 3, 0, 5, 3, 7, 3, 0, 0,
+       7], dtype=int32),
+                                       'val': 0.45092838196286472,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001',
+                                          'other_metrics': [],
+                                          'res_label': array([4, 0, 4, 2, 0, 0, 3, 0, 0, 0, 0, 0, 1, 6, 4, 5, 0, 0, 3, 7, 5, 0, 0,
+       0], dtype=int32),
+                                          'val': 19.863274234877988,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': 'KMeans with n_clusters: 9 max_iter: 900 init: random algorithm: elkan tol: 0.0001',
+                                       'other_metrics': [],
+                                       'res_label': array([6, 1, 6, 6, 3, 0, 0, 1, 3, 3, 0, 7, 4, 2, 6, 5, 3, 3, 0, 3, 5, 3, 7,
+       8], dtype=int32),
+                                       'val': 0.47652916073968704,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 9 max_iter: 300 init: k-means++ algorithm: full tol: 0.1',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 0, 5, 3, 0, 0, 2, 0, 0, 0, 0, 0, 1, 6, 5, 7, 0, 8, 2, 4, 7, 0, 0,
+       0], dtype=int32),
+                                          'val': 19.06255142401487,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'summary': {'labels7_1': {'adjusted_rand_score': {'res_label': array([0, 4, 0, 0, 1, 1, 2, 4, 1, 1, 1, 1, 6, 3, 0, 2, 1, 1, 2, 5, 2, 1, 1,
+       1], dtype=int32),
+                                                   'val': 0.32002672456990144},
+                           'calinski_harabaz_score': {'res_label': array([4, 0, 4, 6, 0, 0, 2, 0, 0, 0, 0, 0, 1, 3, 4, 2, 0, 0, 2, 5, 2, 0, 0,
+       0], dtype=int32),
+                                                      'val': 20.997252740363646}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': array([0, 4, 0, 0, 1, 1, 2, 4, 1, 1, 1, 1, 6, 3, 0, 2, 1, 1, 2, 5, 2, 1, 1,
+       1], dtype=int32),
+                                                   'val': 0.32002672456990144},
+                           'calinski_harabaz_score': {'res_label': array([4, 0, 4, 6, 0, 0, 2, 0, 0, 0, 0, 0, 1, 3, 4, 2, 0, 0, 2, 5, 2, 0, 0,
+       0], dtype=int32),
+                                                      'val': 20.997252740363646}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': array([1, 7, 1, 1, 0, 6, 3, 7, 5, 0, 0, 0, 4, 2, 1, 3, 0, 5, 3, 7, 3, 0, 0,
+       7], dtype=int32),
+                                                   'val': 0.39865921787709502},
+                           'calinski_harabaz_score': {'res_label': array([4, 0, 4, 2, 0, 0, 3, 0, 0, 0, 0, 0, 1, 6, 4, 5, 0, 0, 3, 7, 5, 0, 0,
+       0], dtype=int32),
+                                                      'val': 19.863274234877988}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': array([1, 7, 1, 1, 0, 6, 3, 7, 5, 0, 0, 0, 4, 2, 1, 3, 0, 5, 3, 7, 3, 0, 0,
+       7], dtype=int32),
+                                                   'val': 0.45092838196286472},
+                           'calinski_harabaz_score': {'res_label': array([4, 0, 4, 2, 0, 0, 3, 0, 0, 0, 0, 0, 1, 6, 4, 5, 0, 0, 3, 7, 5, 0, 0,
+       0], dtype=int32),
+                                                      'val': 19.863274234877988}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': array([6, 1, 6, 6, 3, 0, 0, 1, 3, 3, 0, 7, 4, 2, 6, 5, 3, 3, 0, 3, 5, 3, 7,
+       8], dtype=int32),
+                                                   'val': 0.47652916073968704},
+                           'calinski_harabaz_score': {'res_label': array([5, 0, 5, 3, 0, 0, 2, 0, 0, 0, 0, 0, 1, 6, 5, 7, 0, 8, 2, 4, 7, 0, 0,
+       0], dtype=int32),
+                                                      'val': 19.06255142401487}}}}
+############################################################################################
+################# Final reults are       Birch_metrics####################################
+############################################################################################
+{'labels7_1': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 7 threshold: 0.1 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                       'val': 0.20535521485640251,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 7 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                          'val': 20.997252740363646,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 7 threshold: 0.1 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                       'val': 0.16562297559922262,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 7 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                          'val': 20.997252740363646,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 8 threshold: 0.1 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                       'val': 0.11293818671051647,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 8 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                          'val': 19.863274234877984,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 8 threshold: 0.1 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                       'val': 0.14738722644037516,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 8 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                          'val': 19.863274234877984,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': 'Birch with n_clusters: 9 threshold: 0.1 branching_factor:5',
+                                       'other_metrics': [],
+                                       'res_label': array([2, 3, 2, 5, 0, 0, 8, 3, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 8, 6, 1, 0, 0,
+       0]),
+                                       'val': 0.21221457049655673,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'Birch with n_clusters: 9 threshold: 0.1 branching_factor:5',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 3, 2, 5, 0, 0, 8, 3, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 8, 6, 1, 0, 0,
+       0]),
+                                          'val': 19.090064396590755,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'summary': {'labels7_1': {'adjusted_rand_score': {'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                                   'val': 0.20535521485640251},
+                           'calinski_harabaz_score': {'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                                      'val': 20.997252740363646}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                                   'val': 0.16562297559922262},
+                           'calinski_harabaz_score': {'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                                      'val': 20.997252740363646}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                                   'val': 0.11293818671051647},
+                           'calinski_harabaz_score': {'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                                      'val': 19.863274234877984}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                                   'val': 0.14738722644037516},
+                           'calinski_harabaz_score': {'res_label': array([2, 0, 2, 5, 0, 0, 3, 0, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 3, 6, 1, 0, 0,
+       0]),
+                                                      'val': 19.863274234877984}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': array([2, 3, 2, 5, 0, 0, 8, 3, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 8, 6, 1, 0, 0,
+       0]),
+                                                   'val': 0.21221457049655673},
+                           'calinski_harabaz_score': {'res_label': array([2, 3, 2, 5, 0, 0, 8, 3, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 8, 6, 1, 0, 0,
+       0]),
+                                                      'val': 19.090064396590755}}}}
+############################################################################################
+################# Final reults are       MeanShift_metrics####################################
+############################################################################################
+{'labels5_1': {'calinski_harabaz_score': {'cluster_cfg': 'MeanShift with bin_seeding: False cluster_all: True',
+                                          'other_metrics': [],
+                                          'res_label': array([ 0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  1,  3,  0,  0,  0,
+        0,  0,  0, -1,  0,  0,  0]),
+                                          'val': 20.478748526739466,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels7_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'summary': {'labels5_1': {'calinski_harabaz_score': {'res_label': array([ 0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  1,  3,  0,  0,  0,
+        0,  0,  0, -1,  0,  0,  0]),
+                                                      'val': 20.478748526739466}},
+             'labels7_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}}}}
+############################################################################################
+################# Final reults are       AffinityPropagation####################################
+############################################################################################
+{'labels3_1': {'calinski_harabaz_score': {'cluster_cfg': 'AffinityPropagation with damping: 0.99 convergence_iter: 5 max_iter: 100 affinity: euclidean',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2,
+       2]),
+                                          'val': 28.428856943782439,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels4_1': {'calinski_harabaz_score': {'cluster_cfg': 'AffinityPropagation with damping: 0.75 convergence_iter: 5 max_iter: 100 affinity: euclidean',
+                                          'other_metrics': [],
+                                          'res_label': array([3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 3, 3, 1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+       3]),
+                                          'val': 22.84867666748902,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels6_1': {'calinski_harabaz_score': {'cluster_cfg': 'AffinityPropagation with damping: 0.5 convergence_iter: 5 max_iter: 100 affinity: euclidean',
+                                          'other_metrics': [],
+                                          'res_label': array([5, 5, 4, 0, 5, 5, 1, 5, 5, 5, 5, 5, 2, 3, 4, 1, 5, 5, 1, 5, 1, 5, 5,
+       5]),
+                                          'val': 22.088447357413379,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels7_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': '',
+                                       'other_metrics': [],
+                                       'res_label': [],
+                                       'val': 0,
+                                       'vector_cfg': ''},
+               'calinski_harabaz_score': {'cluster_cfg': '',
+                                          'other_metrics': [],
+                                          'res_label': [],
+                                          'val': 0,
+                                          'vector_cfg': ''}},
+ 'summary': {'labels3_1': {'calinski_harabaz_score': {'res_label': array([2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2,
+       2]),
+                                                      'val': 28.428856943782439}},
+             'labels4_1': {'calinski_harabaz_score': {'res_label': array([3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 3, 3, 1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+       3]),
+                                                      'val': 22.84867666748902}},
+             'labels6_1': {'calinski_harabaz_score': {'res_label': array([5, 5, 4, 0, 5, 5, 1, 5, 5, 5, 5, 5, 2, 3, 4, 1, 5, 5, 1, 5, 1, 5, 5,
+       5]),
+                                                      'val': 22.088447357413379}},
+             'labels7_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': [],
+                                                   'val': 0},
+                           'calinski_harabaz_score': {'res_label': [],
+                                                      'val': 0}}}}
+############################################################################################
+################# Final reults are    Common Metrics####################################
+############################################################################################
+{'labels7_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: cosine linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([3, 1, 3, 3, 0, 6, 6, 1, 5, 0, 6, 5, 2, 0, 3, 6, 0, 5, 6, 2, 6, 4, 5,
+       1]),
+                                       'val': 1.0,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                          'val': 20.997252740363646,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels7_2': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: cosine linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([3, 1, 3, 3, 0, 6, 6, 1, 5, 0, 6, 5, 2, 0, 3, 6, 0, 5, 6, 2, 6, 4, 5,
+       1]),
+                                       'val': 0.93757774510912595,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 7 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                          'val': 20.997252740363646,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels8_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: cosine linkage: complete',
+                                       'other_metrics': [],
+                                       'res_label': array([5, 1, 5, 5, 6, 2, 2, 1, 0, 6, 2, 0, 3, 4, 5, 2, 4, 0, 2, 3, 2, 7, 0,
+       1]),
+                                       'val': 0.89938024061246813,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001',
+                                          'other_metrics': [],
+                                          'res_label': array([4, 0, 4, 2, 0, 0, 3, 0, 0, 0, 0, 0, 1, 6, 4, 5, 0, 0, 3, 7, 5, 0, 0,
+       0], dtype=int32),
+                                          'val': 19.863274234877988,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels8_2': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 8 affinity: cosine linkage: complete',
+                                       'other_metrics': [],
+                                       'res_label': array([5, 1, 5, 5, 6, 2, 2, 1, 0, 6, 2, 0, 3, 4, 5, 2, 4, 0, 2, 3, 2, 7, 0,
+       1]),
+                                       'val': 0.91720662347012238,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'KMeans with n_clusters: 8 max_iter: 100 init: k-means++ algorithm: elkan tol: 0.0001',
+                                          'other_metrics': [],
+                                          'res_label': array([4, 0, 4, 2, 0, 0, 3, 0, 0, 0, 0, 0, 1, 6, 4, 5, 0, 0, 3, 7, 5, 0, 0,
+       0], dtype=int32),
+                                          'val': 19.863274234877988,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'labels9_1': {'adjusted_rand_score': {'cluster_cfg': 'AggloClu with n_clusters: 9 affinity: cosine linkage: average',
+                                       'other_metrics': [],
+                                       'res_label': array([7, 5, 7, 7, 3, 6, 6, 5, 2, 3, 6, 2, 0, 1, 7, 6, 1, 2, 6, 0, 6, 4, 2,
+       8]),
+                                       'val': 0.91283476503284489,
+                                       'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '},
+               'calinski_harabaz_score': {'cluster_cfg': 'AggloClu with n_clusters: 9 affinity: euclidean linkage: ward',
+                                          'other_metrics': [],
+                                          'res_label': array([2, 3, 2, 5, 0, 0, 8, 3, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 8, 6, 1, 0, 0,
+       0]),
+                                          'val': 19.090064396590755,
+                                          'vector_cfg': 'CountVec max_df: 0.5 min_df: 2 analyzer: word lowercase: True '}},
+ 'summary': {'labels7_1': {'adjusted_rand_score': {'res_label': array([3, 1, 3, 3, 0, 6, 6, 1, 5, 0, 6, 5, 2, 0, 3, 6, 0, 5, 6, 2, 6, 4, 5,
+       1]),
+                                                   'val': 1.0},
+                           'calinski_harabaz_score': {'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                                      'val': 20.997252740363646}},
+             'labels7_2': {'adjusted_rand_score': {'res_label': array([3, 1, 3, 3, 0, 6, 6, 1, 5, 0, 6, 5, 2, 0, 3, 6, 0, 5, 6, 2, 6, 4, 5,
+       1]),
+                                                   'val': 0.93757774510912595},
+                           'calinski_harabaz_score': {'res_label': array([2, 1, 2, 5, 1, 1, 0, 1, 1, 1, 1, 1, 3, 4, 2, 0, 1, 1, 0, 6, 0, 1, 1,
+       1]),
+                                                      'val': 20.997252740363646}},
+             'labels8_1': {'adjusted_rand_score': {'res_label': array([5, 1, 5, 5, 6, 2, 2, 1, 0, 6, 2, 0, 3, 4, 5, 2, 4, 0, 2, 3, 2, 7, 0,
+       1]),
+                                                   'val': 0.89938024061246813},
+                           'calinski_harabaz_score': {'res_label': array([4, 0, 4, 2, 0, 0, 3, 0, 0, 0, 0, 0, 1, 6, 4, 5, 0, 0, 3, 7, 5, 0, 0,
+       0], dtype=int32),
+                                                      'val': 19.863274234877988}},
+             'labels8_2': {'adjusted_rand_score': {'res_label': array([5, 1, 5, 5, 6, 2, 2, 1, 0, 6, 2, 0, 3, 4, 5, 2, 4, 0, 2, 3, 2, 7, 0,
+       1]),
+                                                   'val': 0.91720662347012238},
+                           'calinski_harabaz_score': {'res_label': array([4, 0, 4, 2, 0, 0, 3, 0, 0, 0, 0, 0, 1, 6, 4, 5, 0, 0, 3, 7, 5, 0, 0,
+       0], dtype=int32),
+                                                      'val': 19.863274234877988}},
+             'labels9_1': {'adjusted_rand_score': {'res_label': array([7, 5, 7, 7, 3, 6, 6, 5, 2, 3, 6, 2, 0, 1, 7, 6, 1, 2, 6, 0, 6, 4, 2,
+       8]),
+                                                   'val': 0.91283476503284489},
+                           'calinski_harabaz_score': {'res_label': array([2, 3, 2, 5, 0, 0, 8, 3, 0, 0, 0, 0, 7, 4, 2, 1, 0, 0, 8, 6, 1, 0, 0,
+       0]),
+                                                      'val': 19.090064396590755}}}}
